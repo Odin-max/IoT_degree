@@ -1,11 +1,13 @@
 import sys
-import logging
+import os
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from save_to_postgres import IoTData
 import random
+from datetime import datetime
 from celery import Celery
 from celery.schedules import crontab
+from pytz import timezone
 
 # Додавання шляху до проекту
 sys.path.append('D:/PythonProjects/Iot_degree')
@@ -21,7 +23,7 @@ app = Celery(
 app.conf.update(
     task_serializer="json",
     accept_content=["json"],
-    timezone="UTC",
+    timezone="Europe/Kyiv",  # Встановлення київського часу
     enable_utc=True,
 )
 
@@ -33,33 +35,35 @@ app.conf.beat_schedule = {
     },
 }
 
-# Налаштування логування
-log_file_path = "iot_data_update.log"
+# Налаштування шляху до лог-файлу
+LOG_DIR = "log"
+LOG_FILE = os.path.join(LOG_DIR, "iot_data_update.log")
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(log_file_path, mode="a", encoding="utf-8"),
-        logging.StreamHandler(),  # Для виведення в консоль
-    ],
-)
+# Створення папки для логів, якщо вона не існує
+os.makedirs(LOG_DIR, exist_ok=True)
 
-logger = logging.getLogger(__name__)  # Ініціалізація логера для модуля
+# Функція для запису логів
+def write_log(message):
+    with open(LOG_FILE, "a", encoding="utf-8") as log_file:
+        log_file.write(message + "\n")
+    print(message)  # Додатково виводимо в консоль
+
 
 @app.task
 def update_iot_data():
     """
     Оновлює випадкові дані IoT у базі кожні 5 хвилин.
     """
-    from datetime import datetime
-
     DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
     engine = create_engine(DATABASE_URL)
     Session = sessionmaker(bind=engine)
     session = Session()
 
+    # Встановлення часу в київському часовому поясі
+    kyiv_time = timezone("Europe/Kyiv")
+
     try:
+        write_log("===== Starting Update Task =====")
         # Отримання всіх записів
         records = session.query(IoTData).all()
 
@@ -85,13 +89,13 @@ def update_iot_data():
             record.login_attempts = 1 if random.random() < 0.9 else random.randint(2, 10)
             record.auth_status = "Failure" if random.random() < 0.05 else "Success"
 
-            # Оновлюємо поле `last_updated` до поточного часу
-            record.last_updated = datetime.utcnow()
+            # Оновлюємо поле `last_updated` до поточного київського часу
+            record.last_updated = datetime.now(kyiv_time)
 
             updated_count += 1
 
             # Логування оновлення
-            logger.info(
+            log_message = (
                 f"Updated Record ID: {record.id} | "
                 f"Temperature: {old_temperature} -> {record.temperature_c}, "
                 f"Humidity: {old_humidity} -> {record.humidity}, "
@@ -101,14 +105,17 @@ def update_iot_data():
                 f"Auth Status: {old_auth_status} -> {record.auth_status}, "
                 f"Last Updated: {old_last_updated} -> {record.last_updated}"
             )
+            write_log(log_message)
 
         session.commit()
-        logger.info(f"Оновлено {updated_count} записів у базі.")
+        write_log(f"Оновлено {updated_count} записів у базі.")
     except Exception as e:
         session.rollback()
-        logger.error(f"Помилка під час оновлення: {e}")
+        write_log(f"Помилка під час оновлення: {e}")
     finally:
         session.close()
+
+
 
 
 
