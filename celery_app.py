@@ -29,7 +29,7 @@ app.conf.update(
 app.conf.beat_schedule = {
     "update-iot-data-every-5-minutes": {
         "task": "celery_app.update_iot_data",
-        "schedule": crontab(minute="*/1"),  # Кожні 5 хвилин
+        "schedule": crontab(minute="*/1"),  # Кожні 1 хвилину для тестування
     },
 }
 
@@ -52,55 +52,57 @@ def update_iot_data():
     """
     Оновлює випадкові дані IoT у базі кожні 5 хвилин.
     """
-    from sqlalchemy.orm import sessionmaker
-    from sqlalchemy import create_engine
-    from save_to_postgres import IoTData
-    import random
-
     DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
     engine = create_engine(DATABASE_URL)
     Session = sessionmaker(bind=engine)
     session = Session()
-
-    log_file_path = "iot_data_update.log"  # Шлях до файлу для запису логів
 
     try:
         # Отримання всіх записів
         records = session.query(IoTData).all()
 
         updated_count = 0
-        with open(log_file_path, "a", encoding="utf-8") as log_file:  # Відкриття файлу в режимі доповнення
-            for record in records:
-                # Зберігаємо старі значення для логування
-                old_temperature = record.temperature_c
-                old_humidity = record.humidity
-                old_data_rate = record.data_rate_kbps
 
-                # Оновлюємо випадкові значення
-                record.temperature_c = round(random.uniform(-10, 50), 2)
-                record.humidity = round(random.uniform(0, 100), 2)
-                record.data_rate_kbps = random.randint(100, 10000)
+        for record in records:
+            # Зберігаємо старі значення для логування
+            old_temperature = record.temperature_c
+            old_humidity = record.humidity
+            old_data_rate = record.data_rate_kbps
+            old_anomaly = record.anomaly
+            old_login_attempts = record.login_attempts
+            old_auth_status = record.auth_status
 
-                updated_count += 1
+            # Оновлення випадкових значень
+            record.temperature_c = round(random.uniform(-10, 50), 2)
+            record.humidity = round(random.uniform(0, 100), 2)
+            record.data_rate_kbps = random.randint(100, 10000)
+            record.anomaly = "None" if random.random() < 0.9 else random.choice(
+                ["High Activity", "Packet Loss", "DoS Attempt"]
+            )
+            record.login_attempts = 1 if random.random() < 0.9 else random.randint(2, 10)
+            record.auth_status = "Failure" if random.random() < 0.05 else "Success"
 
-                # Запис у лог-файл
-                log_message = (
-                    f"Updated Record ID: {record.id} | "
-                    f"Temperature: {old_temperature} -> {record.temperature_c}, "
-                    f"Humidity: {old_humidity} -> {record.humidity}, "
-                    f"Data Rate: {old_data_rate} -> {record.data_rate_kbps}\n"
-                )
-                log_file.write(log_message)  # Запис логів у файл
+            updated_count += 1
+
+            # Логування оновлення
+            logger.info(
+                f"Updated Record ID: {record.id} | "
+                f"Temperature: {old_temperature} -> {record.temperature_c}, "
+                f"Humidity: {old_humidity} -> {record.humidity}, "
+                f"Data Rate: {old_data_rate} -> {record.data_rate_kbps}, "
+                f"Anomaly: {old_anomaly} -> {record.anomaly}, "
+                f"Login Attempts: {old_login_attempts} -> {record.login_attempts}, "
+                f"Auth Status: {old_auth_status} -> {record.auth_status}"
+            )
 
         session.commit()
-        print(f"Оновлено {updated_count} записів у базі.")
+        logger.info(f"Оновлено {updated_count} записів у базі.")
     except Exception as e:
         session.rollback()
-        with open(log_file_path, "a", encoding="utf-8") as log_file:
-            log_file.write(f"Помилка під час оновлення: {e}\n")
-        print(f"Помилка під час оновлення: {e}")
+        logger.error(f"Помилка під час оновлення: {e}")
     finally:
         session.close()
+
 
 
 
