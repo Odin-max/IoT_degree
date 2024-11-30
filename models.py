@@ -6,6 +6,7 @@ class IoTData(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     timestamp = Column(String, nullable=False)
+    last_updated = Column(String, nullable=False)
     device_id = Column(String, nullable=False)
     ip_address = Column(String, nullable=False)
     mac_address = Column(String, nullable=False)

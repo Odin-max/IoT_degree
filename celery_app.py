@@ -52,6 +52,8 @@ def update_iot_data():
     """
     Оновлює випадкові дані IoT у базі кожні 5 хвилин.
     """
+    from datetime import datetime
+
     DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
     engine = create_engine(DATABASE_URL)
     Session = sessionmaker(bind=engine)
@@ -71,6 +73,7 @@ def update_iot_data():
             old_anomaly = record.anomaly
             old_login_attempts = record.login_attempts
             old_auth_status = record.auth_status
+            old_last_updated = record.last_updated
 
             # Оновлення випадкових значень
             record.temperature_c = round(random.uniform(-10, 50), 2)
@@ -82,6 +85,9 @@ def update_iot_data():
             record.login_attempts = 1 if random.random() < 0.9 else random.randint(2, 10)
             record.auth_status = "Failure" if random.random() < 0.05 else "Success"
 
+            # Оновлюємо поле `last_updated` до поточного часу
+            record.last_updated = datetime.utcnow()
+
             updated_count += 1
 
             # Логування оновлення
@@ -92,7 +98,8 @@ def update_iot_data():
                 f"Data Rate: {old_data_rate} -> {record.data_rate_kbps}, "
                 f"Anomaly: {old_anomaly} -> {record.anomaly}, "
                 f"Login Attempts: {old_login_attempts} -> {record.login_attempts}, "
-                f"Auth Status: {old_auth_status} -> {record.auth_status}"
+                f"Auth Status: {old_auth_status} -> {record.auth_status}, "
+                f"Last Updated: {old_last_updated} -> {record.last_updated}"
             )
 
         session.commit()
@@ -102,6 +109,7 @@ def update_iot_data():
         logger.error(f"Помилка під час оновлення: {e}")
     finally:
         session.close()
+
 
 
 

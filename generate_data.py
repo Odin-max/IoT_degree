@@ -35,8 +35,12 @@ def generate_iot_data():
     # Генерація аномалії з 90% шансом отримати "None", інші випадки — випадкові аномалії
     anomaly = "None" if random.random() < 0.9 else random.choice(anomalies)
 
+    # Поле останнього оновлення
+    last_updated = datetime.now().isoformat()
+
     data = {
         "timestamp": datetime.now().isoformat(),
+        "last_updated": last_updated,
         "device_id": device_id,
         "ip_address": f"{random.randint(1, 255)}.{random.randint(1, 255)}.{random.randint(1, 255)}.{random.randint(1, 255)}",
         "mac_address": f"{':'.join(f'{random.randint(0, 255):02x}' for _ in range(6))}",
@@ -49,6 +53,7 @@ def generate_iot_data():
         "anomaly": anomaly,
         "temperature_celsius": round(random.uniform(20.0, 50.0), 2),  # Температура в °C
         "humidity_percent": round(random.uniform(30.0, 90.0), 2),  # Вологість в %
+        
     }
     return data
 

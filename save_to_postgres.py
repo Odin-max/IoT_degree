@@ -11,6 +11,7 @@ class IoTData(Base):
 
     id = Column(Integer, primary_key=True)
     timestamp = Column(DateTime, nullable=False)  # Використання DateTime
+    last_updated = Column(DateTime, nullable=False)
     device_id = Column(String, nullable=False)
     ip_address = Column(String, nullable=False)
     mac_address = Column(String, nullable=False)
@@ -45,6 +46,7 @@ def load_data_to_db(file_path):
         print("Processing entry:", entry)  # Додайте дебаг-лог для перевірки
         db_entry = IoTData(
             timestamp=entry["timestamp"],  # Використовуємо [] замість .get()
+            last_updated = entry["last_updated"],
             device_id=entry["device_id"],
             ip_address=entry["ip_address"],
             mac_address=entry["mac_address"],
