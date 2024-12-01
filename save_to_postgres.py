@@ -1,7 +1,6 @@
-from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime
+from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, JSON
 from sqlalchemy.orm import declarative_base, sessionmaker
 import json
-from datetime import datetime
 
 # SQLAlchemy базові налаштування
 Base = declarative_base()
@@ -10,21 +9,17 @@ class IoTData(Base):
     __tablename__ = "iot_data"
 
     id = Column(Integer, primary_key=True)
-    timestamp = Column(DateTime, nullable=False)  # Використання DateTime
-    last_updated = Column(DateTime, nullable=False)
-    device_id = Column(String, nullable=False)
-    ip_address = Column(String, nullable=False)
-    mac_address = Column(String, nullable=False)
-    protocol = Column(String, nullable=False)
-    port = Column(Integer, nullable=False)
-    encryption = Column(String, nullable=False)
-    auth_status = Column(String, nullable=False)
-    login_attempts = Column(Integer, nullable=False)
-    data_rate_kbps = Column(Float, nullable=False)
-    anomaly = Column(String, nullable=True)
-    # Нові поля
-    temperature_c = Column(Float, nullable=True)  # Температура в градусах Цельсія
-    humidity = Column(Float, nullable=True)       # Вологість у відсотках
+    timestamp = Column(DateTime, nullable=False)  # Час створення запису
+    last_updated = Column(DateTime, nullable=False)  # Час останнього оновлення
+    first_name = Column(String, nullable=False)  # Ім'я користувача
+    last_name = Column(String, nullable=False)  # Прізвище користувача
+    device_id = Column(String, nullable=False)  # Унікальний ID пристрою
+    device_type = Column(String, nullable=False)  # Тип пристрою
+    manufacturer = Column(String, nullable=False)  # Виробник пристрою
+    ip_address = Column(String, nullable=False)  # IP-адреса пристрою
+    mac_address = Column(String, nullable=False)  # MAC-адреса пристрою
+    connection_status = Column(String, nullable=False)  # Статус підключення
+    critical_data = Column(JSON, nullable=True)  # Специфічні дані пристрою
 
 # Налаштування бази даних
 DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
@@ -45,20 +40,17 @@ def load_data_to_db(file_path):
     for entry in data:
         print("Processing entry:", entry)  # Додайте дебаг-лог для перевірки
         db_entry = IoTData(
-            timestamp=entry["timestamp"],  # Використовуємо [] замість .get()
-            last_updated = entry["last_updated"],
+            timestamp=entry["timestamp"],
+            last_updated=entry["last_updated"],
+            first_name=entry["first_name"],
+            last_name=entry["last_name"],
             device_id=entry["device_id"],
+            device_type=entry["device_type"],
+            manufacturer=entry["manufacturer"],
             ip_address=entry["ip_address"],
             mac_address=entry["mac_address"],
-            protocol=entry["protocol"],
-            port=entry["port"],
-            encryption=entry["encryption"],
-            auth_status=entry["auth_status"],
-            login_attempts=entry["login_attempts"],
-            data_rate_kbps=entry["data_rate_kbps"],
-            anomaly=entry["anomaly"],
-            temperature_c=entry["temperature_celsius"],  # Використовуємо [] замість .get()
-            humidity=entry["humidity_percent"],            # Використовуємо [] замість .get()
+            connection_status=entry["connection_status"],
+            critical_data=entry["critical_data"],  # JSON-дані специфічні для пристрою
         )
         session.add(db_entry)
 

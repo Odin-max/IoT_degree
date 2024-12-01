@@ -23,6 +23,7 @@ billiard = "^4.2.1"
 kombu = "^5.4.2"
 alembic = "^1.14.0"
 pytz = "^2024.2"
+faker = "^33.1.0"
 
 
 [build-system]
