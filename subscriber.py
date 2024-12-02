@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import os
 import json
 import paho.mqtt.client as mqtt
-from datetime import datetime
 
 # Завантаження змінних середовища
 load_dotenv()
@@ -22,9 +21,9 @@ cipher = Fernet(encryption_key.encode())
 # Функції для шифрування та розшифрування
 def encrypt_data(data):
     """Шифрує дані."""
-    json_data = json.dumps(data)  # Перетворення на JSON-рядок
+    json_data = json.dumps(data)
     encrypted = cipher.encrypt(json_data.encode())
-    return encrypted.decode()  # Збереження як текст
+    return encrypted.decode()
 
 def decrypt_data(encrypted_data):
     """Розшифровує дані."""
@@ -46,7 +45,7 @@ class IoTData(Base):
     manufacturer = Column(String, nullable=False)
     first_name = Column(Text, nullable=False)
     last_name = Column(Text, nullable=False)
-    critical_data = Column(Text, nullable=False)  # Тип змінено на TEXT
+    critical_data = Column(Text, nullable=False)
 
 # Налаштування бази даних
 DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
@@ -55,30 +54,11 @@ Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
 
-# Функція для завантаження даних із JSON до MQTT
-def send_data_to_mqtt(file_path, mqtt_broker, mqtt_port, topic):
-    """
-    Читає JSON-файл і відправляє кожен запис на MQTT брокер.
-    """
-    with open(file_path, "r") as file:
-        data = json.load(file)["iot_report"]
-
-    client = mqtt.Client()
-    client.connect(mqtt_broker, mqtt_port)
-
-    for entry in data:
-        client.publish(topic, json.dumps(entry))
-        print(f"Відправлено дані на MQTT брокер: {entry['device_id']}")
-
-    client.disconnect()
-
 # Обробник повідомлень MQTT
 def on_message(client, userdata, message):
     """
     Обробляє отримане повідомлення від MQTT та зберігає в базу даних.
     """
-    print("on_message викликано")
-    print(f"Отримане повідомлення: {message.payload.decode('utf-8')}")
     session = Session()
     try:
         # Отримуємо та десеріалізуємо дані
@@ -113,7 +93,6 @@ def on_message(client, userdata, message):
     finally:
         session.close()
 
-
 # Налаштування MQTT клієнта
 def receive_data_from_mqtt(mqtt_broker, mqtt_port, topic):
     """
@@ -128,7 +107,6 @@ def receive_data_from_mqtt(mqtt_broker, mqtt_port, topic):
 
     print("MQTT клієнт працює для прийому повідомлень...")
     client.loop_forever()
-
 
 # Основний блок виконання
 if __name__ == "__main__":
