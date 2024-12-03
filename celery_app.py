@@ -111,16 +111,30 @@ def update_iot_data():
             record.first_name = encrypt_data(first_name)
             record.last_name = encrypt_data(last_name)
 
-            # Оновлення критичних даних залежно від типу пристрою
+             # Оновлення критичних даних залежно від типу пристрою
             critical_data = {}
-            if record.device_type == "Heart Rate Monitor":
-                critical_data["heart_rate"] = random.randint(60, 100)
-            elif record.device_type == "Blood Pressure Monitor":
-                critical_data["blood_pressure"] = f"{random.randint(90, 140)}/{random.randint(60, 90)}"
-            elif record.device_type == "Glucose Meter":
-                critical_data["glucose_level_mg_dL"] = random.randint(70, 140)
-            elif record.device_type in ["Ventilator", "Wearable Fitness Tracker"]:
-                critical_data["oxygen_saturation_percent"] = round(random.uniform(90.0, 100.0), 2)
+            device_type = record.device_type
+
+            if device_type == "Heart Rate Monitor":
+                critical_data["heart_rate"] = random.randint(40, 180)  # bpm
+            elif device_type == "Blood Pressure Monitor":
+                critical_data["blood_pressure"] = f"{random.randint(90, 180)}/{random.randint(60, 120)}"  # mmHg
+            elif device_type == "Glucose Meter":
+                critical_data["glucose_level_mg_dL"] = random.randint(70, 200)  # mg/dL
+            elif device_type == "Infusion Pump":
+                critical_data["infusion_rate_mL_h"] = round(random.uniform(0.1, 500.0), 2)  # mL/h
+            elif device_type == "ECG Monitor":
+                critical_data["ecg_readings"] = [round(random.uniform(-1.0, 1.0), 2) for _ in range(10)]  # Simulated ECG readings
+            elif device_type == "Smart Bed":
+                critical_data["patient_weight_kg"] = random.randint(40, 200)  # kg
+                critical_data["bed_angle_deg"] = round(random.uniform(0, 45), 1)  # degrees
+            elif device_type == "Ventilator":
+                critical_data["oxygen_saturation_percent"] = round(random.uniform(80.0, 100.0), 2)  # %
+                critical_data["respiratory_rate_bpm"] = random.randint(10, 30)  # breaths per minute
+            elif device_type == "Wearable Fitness Tracker":
+                critical_data["steps_count"] = random.randint(0, 20000)  # steps
+                critical_data["calories_burned_kcal"] = round(random.uniform(0.0, 5000.0), 2)
+
 
             # Шифруємо критичні дані
             record.critical_data = encrypt_data(critical_data)
