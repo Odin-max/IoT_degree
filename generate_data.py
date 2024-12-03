@@ -85,7 +85,7 @@ def generate_iot_data():
     return data
 
 # Генерація звіту
-def generate_report(num_entries=300):
+def generate_report(num_entries=50):
     report = {"iot_report": [generate_iot_data() for _ in range(num_entries)]}
     with open("iot_report.json", "w") as f:
         json.dump(report, f, indent=4)

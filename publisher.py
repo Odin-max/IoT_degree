@@ -1,12 +1,17 @@
 import paho.mqtt.client as mqtt
 import json
 
+
+
 def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
     """
     Читає JSON-файл і відправляє кожен запис на MQTT брокер.
     """
     with open(file_path, "r") as file:
         data = json.load(file)["iot_report"]
+    if not data:
+        raise ValueError("JSON-файл порожній або не містить iot_report.")
+
 
     client = mqtt.Client()
     client.connect(mqtt_broker, mqtt_port)
