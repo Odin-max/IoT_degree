@@ -71,6 +71,11 @@ def publish_to_mqtt(payload):
     """
     client = mqtt.Client()
     try:
+        client.tls_set(
+            ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
+            certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
+            keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
+        )
         client.connect(MQTT_BROKER, MQTT_PORT, 60)
         client.publish(MQTT_TOPIC, json.dumps(payload))
         write_log(f"Дані передано до MQTT брокера: {payload['device_id']}")
@@ -183,6 +188,6 @@ def update_iot_data():
 
 
 
-
+# mosquitto -c C:\mosquitto\mosquitto.conf -v
 # celery -A celery_app worker --pool=solo --loglevel=info
 # celery -A celery_app beat --loglevel=info

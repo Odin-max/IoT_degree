@@ -14,6 +14,11 @@ def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
 
 
     client = mqtt.Client()
+    client.tls_set(
+    ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
+    certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
+    keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
+)
     client.connect(mqtt_broker, mqtt_port)
 
     for entry in data:
@@ -24,7 +29,7 @@ def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
 
 if __name__ == "__main__":
     mqtt_broker = os.getenv("MQTT_BROKER")
-    mqtt_port = os.getenv("MQTT_PORT")
+    mqtt_port = int(os.getenv("MQTT_PORT"))
     topic = os.getenv("MQTT_TOPIC")
 
     # Відправка даних

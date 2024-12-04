@@ -101,7 +101,11 @@ def receive_data_from_mqtt(mqtt_broker, mqtt_port, topic):
     client = mqtt.Client()
     client.on_connect = lambda c, u, f, rc: print(f"Підключено до MQTT брокера з кодом {mqtt.connack_string(rc)}")
     client.on_message = on_message  # Підключаємо обробник
-
+    client.tls_set(
+    ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
+    certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
+    keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
+)
     client.connect(mqtt_broker, mqtt_port)
     client.subscribe(topic)  # Підписуємося на тему
 
