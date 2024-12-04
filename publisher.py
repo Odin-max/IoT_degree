@@ -23,9 +23,9 @@ def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
     client.disconnect()
 
 if __name__ == "__main__":
-    mqtt_broker = "127.0.0.1"
-    mqtt_port = 1883
-    topic = "iot/healthcare"
+    mqtt_broker = os.getenv("MQTT_BROKER")
+    mqtt_port = os.getenv("MQTT_PORT")
+    topic = os.getenv("MQTT_TOPIC")
 
     # Відправка даних
     publish_data_from_json("iot_report.json", mqtt_broker, mqtt_port, topic)

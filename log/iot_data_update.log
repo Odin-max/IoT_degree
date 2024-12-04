@@ -776,3 +776,102 @@ Updated Record ID: 3460 | Last Updated: 2024-12-04 09:50:00.212760+02:00 | Criti
 Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
 Updated Record ID: 3461 | Last Updated: 2024-12-04 09:50:00.213761+02:00 | Critical Data: {'blood_pressure': '109/72'}
 Оновлено 45 записів у базі.
+===== Starting Update Task =====
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3433 | Last Updated: 2024-12-04 09:54:03.207396+02:00 | Critical Data: {'steps_count': 2997, 'calories_burned_kcal': 257.05}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3424 | Last Updated: 2024-12-04 09:54:03.209397+02:00 | Critical Data: {'glucose_level_mg_dL': 94}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3436 | Last Updated: 2024-12-04 09:54:03.210398+02:00 | Critical Data: {'heart_rate': 101}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3418 | Last Updated: 2024-12-04 09:54:03.211399+02:00 | Critical Data: {'infusion_rate_mL_h': 431.14}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3419 | Last Updated: 2024-12-04 09:54:03.212397+02:00 | Critical Data: {'glucose_level_mg_dL': 92}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3420 | Last Updated: 2024-12-04 09:54:03.214405+02:00 | Critical Data: {'blood_pressure': '117/94'}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3421 | Last Updated: 2024-12-04 09:54:03.215397+02:00 | Critical Data: {'heart_rate': 173}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3422 | Last Updated: 2024-12-04 09:54:03.216397+02:00 | Critical Data: {'infusion_rate_mL_h': 129.75}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3423 | Last Updated: 2024-12-04 09:54:03.217397+02:00 | Critical Data: {'heart_rate': 146}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3443 | Last Updated: 2024-12-04 09:54:03.218397+02:00 | Critical Data: {'oxygen_saturation_percent': 90.02, 'respiratory_rate_bpm': 18}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3444 | Last Updated: 2024-12-04 09:54:03.219397+02:00 | Critical Data: {'oxygen_saturation_percent': 89.64, 'respiratory_rate_bpm': 23}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3413 | Last Updated: 2024-12-04 09:54:03.220401+02:00 | Critical Data: {'patient_weight_kg': 127, 'bed_angle_deg': 34.8}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3414 | Last Updated: 2024-12-04 09:54:03.221402+02:00 | Critical Data: {'heart_rate': 177}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3415 | Last Updated: 2024-12-04 09:54:03.222402+02:00 | Critical Data: {'oxygen_saturation_percent': 91.51, 'respiratory_rate_bpm': 22}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3416 | Last Updated: 2024-12-04 09:54:03.223402+02:00 | Critical Data: {'blood_pressure': '137/74'}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3417 | Last Updated: 2024-12-04 09:54:03.223402+02:00 | Critical Data: {'infusion_rate_mL_h': 254.98}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3438 | Last Updated: 2024-12-04 09:54:03.224402+02:00 | Critical Data: {'glucose_level_mg_dL': 75}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3439 | Last Updated: 2024-12-04 09:54:03.225401+02:00 | Critical Data: {'heart_rate': 65}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3446 | Last Updated: 2024-12-04 09:54:03.226402+02:00 | Critical Data: {'infusion_rate_mL_h': 443.1}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3426 | Last Updated: 2024-12-04 09:54:03.227402+02:00 | Critical Data: {'ecg_readings': [-0.2, -1.0, 0.16, -0.0, -0.07, 0.61, 0.56, -0.32, -0.54, 0.22]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3427 | Last Updated: 2024-12-04 09:54:03.228402+02:00 | Critical Data: {'ecg_readings': [0.53, 0.29, 0.24, 0.34, -0.08, -0.64, 0.23, -0.58, 0.49, -0.49]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3428 | Last Updated: 2024-12-04 09:54:03.229402+02:00 | Critical Data: {'ecg_readings': [0.47, 0.71, -0.23, -0.5, 0.4, -0.44, 0.79, 0.76, 0.96, -0.04]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3429 | Last Updated: 2024-12-04 09:54:03.230402+02:00 | Critical Data: {'glucose_level_mg_dL': 107}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3431 | Last Updated: 2024-12-04 09:54:03.231402+02:00 | Critical Data: {'patient_weight_kg': 65, 'bed_angle_deg': 9.4}
+Пристрій Device_2238 відключений.
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3425 | Last Updated: 2024-12-04 09:54:03.232402+02:00 | Critical Data: {'glucose_level_mg_dL': 138}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3430 | Last Updated: 2024-12-04 09:54:03.233402+02:00 | Critical Data: {'ecg_readings': [0.04, -0.06, -0.05, -0.79, 0.09, -0.15, -0.74, -0.72, -0.29, 0.73]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3434 | Last Updated: 2024-12-04 09:54:03.233402+02:00 | Critical Data: {'ecg_readings': [-0.55, 0.32, -0.87, 0.38, -0.1, -0.5, -0.5, 0.0, -0.77, 0.78]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3435 | Last Updated: 2024-12-04 09:54:03.234906+02:00 | Critical Data: {'glucose_level_mg_dL': 195}
+Пристрій Device_2771 відключений.
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3440 | Last Updated: 2024-12-04 09:54:03.235911+02:00 | Critical Data: {'infusion_rate_mL_h': 440.77}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3441 | Last Updated: 2024-12-04 09:54:03.236911+02:00 | Critical Data: {'heart_rate': 79}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3442 | Last Updated: 2024-12-04 09:54:03.236911+02:00 | Critical Data: {'heart_rate': 94}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3445 | Last Updated: 2024-12-04 09:54:03.237911+02:00 | Critical Data: {'steps_count': 8894, 'calories_burned_kcal': 3007.34}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3447 | Last Updated: 2024-12-04 09:54:03.238911+02:00 | Critical Data: {'blood_pressure': '142/102'}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3448 | Last Updated: 2024-12-04 09:54:03.239911+02:00 | Critical Data: {'infusion_rate_mL_h': 445.12}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3456 | Last Updated: 2024-12-04 09:54:03.240912+02:00 | Critical Data: {'infusion_rate_mL_h': 299.64}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3462 | Last Updated: 2024-12-04 09:54:03.241912+02:00 | Critical Data: {'blood_pressure': '172/86'}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3449 | Last Updated: 2024-12-04 09:54:03.242911+02:00 | Critical Data: {'oxygen_saturation_percent': 82.07, 'respiratory_rate_bpm': 12}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3450 | Last Updated: 2024-12-04 09:54:03.242911+02:00 | Critical Data: {'infusion_rate_mL_h': 65.67}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3451 | Last Updated: 2024-12-04 09:54:03.243911+02:00 | Critical Data: {'glucose_level_mg_dL': 161}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3452 | Last Updated: 2024-12-04 09:54:03.244912+02:00 | Critical Data: {'infusion_rate_mL_h': 363.04}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3453 | Last Updated: 2024-12-04 09:54:03.245911+02:00 | Critical Data: {'oxygen_saturation_percent': 96.92, 'respiratory_rate_bpm': 18}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3454 | Last Updated: 2024-12-04 09:54:03.246911+02:00 | Critical Data: {'infusion_rate_mL_h': 375.88}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3455 | Last Updated: 2024-12-04 09:54:03.247912+02:00 | Critical Data: {'blood_pressure': '115/98'}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3457 | Last Updated: 2024-12-04 09:54:03.248911+02:00 | Critical Data: {'oxygen_saturation_percent': 86.25, 'respiratory_rate_bpm': 21}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3458 | Last Updated: 2024-12-04 09:54:03.248911+02:00 | Critical Data: {'steps_count': 694, 'calories_burned_kcal': 4965.45}
+Пристрій Device_2582 відключений.
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3460 | Last Updated: 2024-12-04 09:54:03.250911+02:00 | Critical Data: {'ecg_readings': [-0.32, 0.36, -0.63, 0.09, -0.99, -0.08, 0.62, -0.83, 0.26, -0.31]}
+Помилка публікації до MQTT: '<=' not supported between instances of 'str' and 'int'
+Updated Record ID: 3461 | Last Updated: 2024-12-04 09:54:03.251912+02:00 | Critical Data: {'blood_pressure': '100/105'}
+Оновлено 47 записів у базі.
