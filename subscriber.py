@@ -111,7 +111,7 @@ def receive_data_from_mqtt(mqtt_broker, mqtt_port, topic):
 # Основний блок виконання
 if __name__ == "__main__":
     mqtt_broker = os.getenv("MQTT_BROKER")
-    mqtt_port = os.getenv("MQTT_PORT")
+    mqtt_port = int(os.getenv("MQTT_PORT"))
     topic = os.getenv("MQTT_TOPIC")
 
     # Запускаємо прийом даних і збереження в базу
