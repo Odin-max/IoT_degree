@@ -18,6 +18,10 @@ if not encryption_key:
     raise ValueError("FERNET_KEY не знайдено у .env файлі.")
 cipher = Fernet(encryption_key.encode())
 
+ca_cert_path = os.getenv("CA_CERT_PATH")
+client_cert_path = os.getenv("CLIENT_CERT_PATH")
+client_key_path = os.getenv("CLIENT_KEY_PATH")
+
 # Функції для шифрування та розшифрування
 def encrypt_data(data):
     """Шифрує дані."""
@@ -102,10 +106,10 @@ def receive_data_from_mqtt(mqtt_broker, mqtt_port, topic):
     client.on_connect = lambda c, u, f, rc: print(f"Підключено до MQTT брокера з кодом {mqtt.connack_string(rc)}")
     client.on_message = on_message  # Підключаємо обробник
     client.tls_set(
-    ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
-    certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
-    keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
-)
+        ca_certs=ca_cert_path,
+        certfile=client_cert_path,
+        keyfile=client_key_path
+    )
     client.connect(mqtt_broker, mqtt_port)
     client.subscribe(topic)  # Підписуємося на тему
 

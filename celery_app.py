@@ -20,7 +20,12 @@ load_dotenv()
 fake = Faker()
 
 # Додавання шляху до проекту
-sys.path.append('D:/PythonProjects/Iot_degree')
+project_path = os.getenv("PROJECT_PATH")
+if project_path:
+    sys.path.append(project_path)
+    print(f"Шлях до проекту додано: {project_path}")
+else:
+    raise EnvironmentError("PROJECT_PATH не знайдено у .env файлі.")
 
 
 # Створення інстансу Celery
@@ -58,6 +63,10 @@ MQTT_BROKER = os.getenv("MQTT_BROKER")
 MQTT_PORT = os.getenv("MQTT_PORT")
 MQTT_TOPIC = os.getenv("MQTT_TOPIC")
 
+ca_cert_path = os.getenv("CA_CERT_PATH")
+client_cert_path = os.getenv("CLIENT_CERT_PATH")
+client_key_path = os.getenv("CLIENT_KEY_PATH")
+
 # Функція для запису логів
 def write_log(message):
     with open(LOG_FILE, "a", encoding="utf-8") as log_file:
@@ -69,20 +78,30 @@ def publish_to_mqtt(payload):
     """
     Публікує дані в MQTT брокер.
     """
-    client = mqtt.Client()
     try:
+        # Перевірка на порожні критичні дані
+        if not payload["critical_data"]:
+            write_log(f"Критичні дані для {payload['device_id']} порожні. Публікація пропущена.")
+            return
+
+        client = mqtt.Client()
         client.tls_set(
-            ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
-            certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
-            keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
+            ca_certs=os.getenv("CA_CERT_PATH"),
+            certfile=os.getenv("CLIENT_CERT_PATH"),
+            keyfile=os.getenv("CLIENT_KEY_PATH"),
         )
-        client.connect(MQTT_BROKER, MQTT_PORT, 60)
-        client.publish(MQTT_TOPIC, json.dumps(payload))
+        client.connect(os.getenv("MQTT_BROKER"), int(os.getenv("MQTT_PORT")))
+        
+        # Логування перед публікацією
+        write_log(f"Перед публікацією в MQTT: {payload}")
+        
+        client.publish(os.getenv("MQTT_TOPIC"), json.dumps(payload))
         write_log(f"Дані передано до MQTT брокера: {payload['device_id']}")
     except Exception as e:
         write_log(f"Помилка публікації до MQTT: {e}")
     finally:
         client.disconnect()
+
 
 @app.task
 def update_iot_data():
@@ -108,7 +127,7 @@ def update_iot_data():
             if record.connection_status == "Disconnected":
                 # Якщо пристрій не підключений, очищуємо критичні дані
                 record.critical_data = encrypt_data({})
-                write_log(f"Пристрій {record.device_id} відключений.")
+                write_log(f"Пристрій {record.device_id} відключений. Критичні дані очищено.")
                 continue
 
             # Оновлення імені та прізвища
@@ -117,38 +136,33 @@ def update_iot_data():
             record.first_name = encrypt_data(first_name)
             record.last_name = encrypt_data(last_name)
 
-             # Оновлення критичних даних залежно від типу пристрою
+            # Оновлення критичних даних залежно від типу пристрою
             critical_data = {}
-            device_type = record.device_type
-
-            if device_type == "Heart Rate Monitor":
-                critical_data["heart_rate"] = random.randint(40, 180)  # bpm
-            elif device_type == "Blood Pressure Monitor":
-                critical_data["blood_pressure"] = f"{random.randint(90, 180)}/{random.randint(60, 120)}"  # mmHg
-            elif device_type == "Glucose Meter":
-                critical_data["glucose_level_mg_dL"] = random.randint(70, 200)  # mg/dL
-            elif device_type == "Infusion Pump":
-                critical_data["infusion_rate_mL_h"] = round(random.uniform(0.1, 500.0), 2)  # mL/h
-            elif device_type == "ECG Monitor":
-                critical_data["ecg_readings"] = [round(random.uniform(-1.0, 1.0), 2) for _ in range(10)]  # Simulated ECG readings
-            elif device_type == "Smart Bed":
-                critical_data["patient_weight_kg"] = random.randint(40, 200)  # kg
-                critical_data["bed_angle_deg"] = round(random.uniform(0, 45), 1)  # degrees
-            elif device_type == "Ventilator":
-                critical_data["oxygen_saturation_percent"] = round(random.uniform(80.0, 100.0), 2)  # %
-                critical_data["respiratory_rate_bpm"] = random.randint(10, 30)  # breaths per minute
-            elif device_type == "Wearable Fitness Tracker":
-                critical_data["steps_count"] = random.randint(0, 20000)  # steps
+            if record.device_type == "Heart Rate Monitor":
+                critical_data["heart_rate"] = random.randint(40, 180)
+            elif record.device_type == "Blood Pressure Monitor":
+                critical_data["blood_pressure"] = f"{random.randint(90, 180)}/{random.randint(60, 120)}"
+            elif record.device_type == "Glucose Meter":
+                critical_data["glucose_level_mg_dL"] = random.randint(70, 200)
+            elif record.device_type == "Infusion Pump":
+                critical_data["infusion_rate_mL_h"] = round(random.uniform(0.1, 500.0), 2)
+            elif record.device_type == "ECG Monitor":
+                critical_data["ecg_readings"] = [round(random.uniform(-1.0, 1.0), 2) for _ in range(10)]
+            elif record.device_type == "Smart Bed":
+                critical_data["patient_weight_kg"] = random.randint(40, 200)
+                critical_data["bed_angle_deg"] = round(random.uniform(0, 45), 1)
+            elif record.device_type == "Ventilator":
+                critical_data["oxygen_saturation_percent"] = round(random.uniform(80.0, 100.0), 2)
+                critical_data["respiratory_rate_bpm"] = random.randint(10, 30)
+            elif record.device_type == "Wearable Fitness Tracker":
+                critical_data["steps_count"] = random.randint(0, 20000)
                 critical_data["calories_burned_kcal"] = round(random.uniform(0.0, 5000.0), 2)
-
 
             # Шифруємо критичні дані
             record.critical_data = encrypt_data(critical_data)
 
             # Оновлюємо поле `last_updated`
             record.last_updated = datetime.now(kyiv_time)
-
-            updated_count += 1
 
             # Підготовка даних для публікації
             payload = {
@@ -167,6 +181,7 @@ def update_iot_data():
 
             # Публікуємо в MQTT брокер
             publish_to_mqtt(payload)
+
 
             log_message = (
                 f"Updated Record ID: {record.id} | Last Updated: {record.last_updated} | Critical Data: {critical_data}"

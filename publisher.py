@@ -1,6 +1,14 @@
 import paho.mqtt.client as mqtt
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+ca_cert_path = os.getenv("CA_CERT_PATH")
+client_cert_path = os.getenv("CLIENT_CERT_PATH")
+client_key_path = os.getenv("CLIENT_KEY_PATH")
 
 
 def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
@@ -15,10 +23,10 @@ def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):
 
     client = mqtt.Client()
     client.tls_set(
-    ca_certs="C:/mosquitto/certs/ca.crt",  # Сертифікат центру сертифікації (CA)
-    certfile="C:/mosquitto/certs/client.crt",  # Клієнтський сертифікат
-    keyfile="C:/mosquitto/certs/client.key"    # Приватний ключ клієнта
-)
+        ca_certs=ca_cert_path,
+        certfile=client_cert_path,
+        keyfile=client_key_path
+    )
     client.connect(mqtt_broker, mqtt_port)
 
     for entry in data:
