@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-%l1-=^^dlxvym%*z9#uhbt=wd@bgdm*a(#@k*vh1i*nb%n(&cf'
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -77,11 +78,11 @@ WSGI_APPLICATION = 'src.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'iot_analysis_db',
-        'USER': 'postgres',
-        'PASSWORD': 'PG13',
-        'HOST': 'localhost', 
-        'PORT': '5432',       
+        'NAME': os.getenv('DB_name'),
+        'USER': os.getenv('DB_user'),
+        'PASSWORD': os.getenv('DB_password'),
+        'HOST': os.getenv('DB_host'), 
+        'PORT': os.getenv('DB_port'),       
     }
 }
 

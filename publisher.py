@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 import json
-
+import os
 
 
 def publish_data_from_json(file_path, mqtt_broker, mqtt_port, topic):

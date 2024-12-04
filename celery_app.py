@@ -22,11 +22,12 @@ fake = Faker()
 # Додавання шляху до проекту
 sys.path.append('D:/PythonProjects/Iot_degree')
 
+
 # Створення інстансу Celery
 app = Celery(
     "iot_project",
-    broker="redis://localhost:6379/0",  # URL до Redis
-    backend="redis://localhost:6379/0"  # URL для результатів
+    broker=os.getenv("broker_url"),  # URL до Redis
+    backend=os.getenv("backend_url")  # URL для результатів
 )
 
 # Додаткові конфігурації
@@ -53,9 +54,9 @@ LOG_FILE = os.path.join(LOG_DIR, "iot_data_update.log")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 # Налаштування MQTT
-MQTT_BROKER = "127.0.0.1"
-MQTT_PORT = 1883
-MQTT_TOPIC = "iot/healthcare"
+MQTT_BROKER = os.getenv("MQTT_BROKER")
+MQTT_PORT = os.getenv("MQTT_PORT")
+MQTT_TOPIC = os.getenv("MQTT_TOPIC")
 
 # Функція для запису логів
 def write_log(message):
@@ -83,7 +84,7 @@ def update_iot_data():
     """
     Оновлює випадкові дані IoT у базі кожні 5 хвилин і публікує їх у MQTT брокер.
     """
-    DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
+    DATABASE_URL = os.getenv("DATABASE_URL")
     engine = create_engine(DATABASE_URL)
     Session = sessionmaker(bind=engine)
     session = Session()

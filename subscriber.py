@@ -48,7 +48,7 @@ class IoTData(Base):
     critical_data = Column(Text, nullable=False)
 
 # Налаштування бази даних
-DATABASE_URL = "postgresql://postgres:PG13@localhost/iot_analysis_db"
+DATABASE_URL = os.getenv("DATABASE_URL")
 engine = create_engine(DATABASE_URL)
 Base.metadata.create_all(engine)
 
