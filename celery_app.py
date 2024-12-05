@@ -12,6 +12,7 @@ import json
 from dotenv import load_dotenv
 import random
 from faker import Faker
+from validator import validate_payload
 
 # Завантаження змінних середовища
 load_dotenv()
@@ -80,6 +81,8 @@ def publish_to_mqtt(payload):
     """
     try:
         # Перевірка на порожні критичні дані
+        validate_payload(payload)
+        
         if not payload["critical_data"]:
             write_log(f"Критичні дані для {payload['device_id']} порожні. Публікація пропущена.")
             return

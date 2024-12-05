@@ -4602,3 +4602,579 @@ Updated 43 records in the database.
 Дані передано до MQTT брокера: Device_4226
 Оновлено запис ID: 7931 | Останнє оновлення: 2024-12-05 12:18:35.183098+02:00 | Критичні дані: {'ecg_readings': [-0.18, 0.44, -0.83, -0.91, -0.68, 0.03, -0.15, -0.43, 0.21, -0.84]}
 Оновлено 45 записів у базі.
+===== Початок оновлення =====
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:42.587887+02:00', 'device_id': 'Device_3892', 'ip_address': '8.232.73.245', 'mac_address': '16:ca:04:8f:1a:7f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Caitlin', 'last_name': 'Patterson', 'critical_data': {'infusion_rate_mL_h': 464.68}}
+Дані передано до MQTT брокера: Device_3892
+Оновлено запис ID: 7883 | Останнє оновлення: 2024-12-05 12:56:42.587887+02:00 | Критичні дані: {'infusion_rate_mL_h': 464.68}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:42.618407+02:00', 'device_id': 'Device_4177', 'ip_address': '200.110.39.45', 'mac_address': '37:0d:88:72:f8:f0', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Ryan', 'last_name': 'Bernard', 'critical_data': {'infusion_rate_mL_h': 35.01}}
+Дані передано до MQTT брокера: Device_4177
+Оновлено запис ID: 7884 | Останнє оновлення: 2024-12-05 12:56:42.618407+02:00 | Критичні дані: {'infusion_rate_mL_h': 35.01}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:42.650477+02:00', 'device_id': 'Device_2875', 'ip_address': '2.128.116.143', 'mac_address': '91:5a:8e:1c:a1:bb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Paula', 'last_name': 'Farmer', 'critical_data': {'ecg_readings': [-0.3, -0.93, 0.06, 0.07, 0.94, 0.43, 0.18, -0.44, 0.37, -0.11]}}
+Дані передано до MQTT брокера: Device_2875
+Оновлено запис ID: 7885 | Останнє оновлення: 2024-12-05 12:56:42.650477+02:00 | Критичні дані: {'ecg_readings': [-0.3, -0.93, 0.06, 0.07, 0.94, 0.43, 0.18, -0.44, 0.37, -0.11]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:42.658996+02:00', 'device_id': 'Device_4592', 'ip_address': '58.167.21.34', 'mac_address': '64:60:0a:9f:e1:f1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Nicole', 'last_name': 'Dudley', 'critical_data': {'heart_rate': 97}}
+Дані передано до MQTT брокера: Device_4592
+Оновлено запис ID: 7886 | Останнє оновлення: 2024-12-05 12:56:42.658996+02:00 | Критичні дані: {'heart_rate': 97}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:42.682355+02:00', 'device_id': 'Device_4625', 'ip_address': '47.244.222.94', 'mac_address': '51:51:23:bb:60:b8', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'LifeFit Devices', 'first_name': 'Angela', 'last_name': 'Klein', 'critical_data': {'oxygen_saturation_percent': 90.03, 'respiratory_rate_bpm': 11}}
+Дані передано до MQTT брокера: Device_4625
+Оновлено запис ID: 7887 | Останнє оновлення: 2024-12-05 12:56:42.682355+02:00 | Критичні дані: {'oxygen_saturation_percent': 90.03, 'respiratory_rate_bpm': 11}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.690880+02:00', 'device_id': 'Device_4544', 'ip_address': '65.202.87.169', 'mac_address': 'c1:75:5e:01:83:c6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Russell', 'last_name': 'Evans', 'critical_data': {'ecg_readings': [0.06, -0.61, -0.27, -0.01, -0.31, 0.95, -0.24, 0.83, -0.95, -0.25]}}
+Дані передано до MQTT брокера: Device_4544
+Оновлено запис ID: 7888 | Останнє оновлення: 2024-12-05 12:56:42.690880+02:00 | Критичні дані: {'ecg_readings': [0.06, -0.61, -0.27, -0.01, -0.31, 0.95, -0.24, 0.83, -0.95, -0.25]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.702389+02:00', 'device_id': 'Device_6937', 'ip_address': '94.172.201.156', 'mac_address': '49:91:89:44:21:b4', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Ryan', 'last_name': 'Hall', 'critical_data': {'glucose_level_mg_dL': 149}}
+Дані передано до MQTT брокера: Device_6937
+Оновлено запис ID: 7889 | Останнє оновлення: 2024-12-05 12:56:42.702389+02:00 | Критичні дані: {'glucose_level_mg_dL': 149}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.712922+02:00', 'device_id': 'Device_7378', 'ip_address': '236.51.15.201', 'mac_address': 'a9:d9:72:5e:56:32', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Toni', 'last_name': 'Gutierrez', 'critical_data': {'oxygen_saturation_percent': 95.94, 'respiratory_rate_bpm': 12}}
+Дані передано до MQTT брокера: Device_7378
+Оновлено запис ID: 7890 | Останнє оновлення: 2024-12-05 12:56:42.712922+02:00 | Критичні дані: {'oxygen_saturation_percent': 95.94, 'respiratory_rate_bpm': 12}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.744022+02:00', 'device_id': 'Device_1768', 'ip_address': '143.166.65.153', 'mac_address': 'a9:60:35:ad:b8:e8', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'MedTech Inc.', 'first_name': 'Amanda', 'last_name': 'Stone', 'critical_data': {'infusion_rate_mL_h': 299.41}}
+Дані передано до MQTT брокера: Device_1768
+Оновлено запис ID: 7891 | Останнє оновлення: 2024-12-05 12:56:42.744022+02:00 | Критичні дані: {'infusion_rate_mL_h': 299.41}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.752030+02:00', 'device_id': 'Device_5135', 'ip_address': '106.3.190.105', 'mac_address': 'f4:5a:17:67:f4:a1', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Keith', 'last_name': 'Wilson', 'critical_data': {'glucose_level_mg_dL': 73}}
+Дані передано до MQTT брокера: Device_5135
+Оновлено запис ID: 7892 | Останнє оновлення: 2024-12-05 12:56:42.752030+02:00 | Критичні дані: {'glucose_level_mg_dL': 73}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.760543+02:00', 'device_id': 'Device_8030', 'ip_address': '163.127.82.195', 'mac_address': 'd4:d5:63:48:5a:45', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Kristin', 'last_name': 'Lopez', 'critical_data': {'ecg_readings': [0.15, -0.81, -0.19, -0.69, -0.19, 0.97, 0.73, 0.57, 0.08, -0.15]}}
+Дані передано до MQTT брокера: Device_8030
+Оновлено запис ID: 7893 | Останнє оновлення: 2024-12-05 12:56:42.760543+02:00 | Критичні дані: {'ecg_readings': [0.15, -0.81, -0.19, -0.69, -0.19, 0.97, 0.73, 0.57, 0.08, -0.15]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.769048+02:00', 'device_id': 'Device_1015', 'ip_address': '117.242.114.17', 'mac_address': '74:fc:31:9b:b5:71', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'William', 'last_name': 'Marshall', 'critical_data': {'glucose_level_mg_dL': 106}}
+Дані передано до MQTT брокера: Device_1015
+Оновлено запис ID: 7894 | Останнє оновлення: 2024-12-05 12:56:42.769048+02:00 | Критичні дані: {'glucose_level_mg_dL': 106}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.790092+02:00', 'device_id': 'Device_8373', 'ip_address': '81.131.79.228', 'mac_address': '42:16:41:11:23:1a', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Tiffany', 'last_name': 'Davis', 'critical_data': {'ecg_readings': [0.32, 0.27, 0.37, -0.46, 0.96, -0.69, -0.57, -0.57, 0.84, 0.04]}}
+Дані передано до MQTT брокера: Device_8373
+Оновлено запис ID: 7895 | Останнє оновлення: 2024-12-05 12:56:42.790092+02:00 | Критичні дані: {'ecg_readings': [0.32, 0.27, 0.37, -0.46, 0.96, -0.69, -0.57, -0.57, 0.84, 0.04]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.822610+02:00', 'device_id': 'Device_5607', 'ip_address': '84.245.115.184', 'mac_address': '59:47:e5:7f:1f:b8', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jaime', 'last_name': 'Meadows', 'critical_data': {'steps_count': 15226, 'calories_burned_kcal': 2467.11}}
+Дані передано до MQTT брокера: Device_5607
+Оновлено запис ID: 7896 | Останнє оновлення: 2024-12-05 12:56:42.822610+02:00 | Критичні дані: {'steps_count': 15226, 'calories_burned_kcal': 2467.11}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.830326+02:00', 'device_id': 'Device_4312', 'ip_address': '225.27.168.109', 'mac_address': 'e8:43:6b:2f:9b:e8', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Amanda', 'last_name': 'Wood', 'critical_data': {'blood_pressure': '156/76'}}
+Дані передано до MQTT брокера: Device_4312
+Оновлено запис ID: 7897 | Останнє оновлення: 2024-12-05 12:56:42.830326+02:00 | Критичні дані: {'blood_pressure': '156/76'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:56:42.854120+02:00', 'device_id': 'Device_5542', 'ip_address': '56.84.79.168', 'mac_address': '97:c4:32:a5:04:60', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'James', 'last_name': 'Ramirez', 'critical_data': {'patient_weight_kg': 65, 'bed_angle_deg': 23.3}}
+Дані передано до MQTT брокера: Device_5542
+Оновлено запис ID: 7898 | Останнє оновлення: 2024-12-05 12:56:42.854120+02:00 | Критичні дані: {'patient_weight_kg': 65, 'bed_angle_deg': 23.3}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.862108+02:00', 'device_id': 'Device_1453', 'ip_address': '42.187.18.230', 'mac_address': 'af:a5:6d:18:22:86', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jonathan', 'last_name': 'Warner', 'critical_data': {'blood_pressure': '138/107'}}
+Дані передано до MQTT брокера: Device_1453
+Оновлено запис ID: 7899 | Останнє оновлення: 2024-12-05 12:56:42.862108+02:00 | Критичні дані: {'blood_pressure': '138/107'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.883770+02:00', 'device_id': 'Device_4685', 'ip_address': '102.120.232.187', 'mac_address': '00:f0:b8:1c:4e:68', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Chase', 'last_name': 'White', 'critical_data': {'ecg_readings': [0.56, -0.98, 0.04, 0.25, -0.44, -0.67, -0.19, 0.84, -1.0, 0.61]}}
+Дані передано до MQTT брокера: Device_4685
+Оновлено запис ID: 7900 | Останнє оновлення: 2024-12-05 12:56:42.883770+02:00 | Критичні дані: {'ecg_readings': [0.56, -0.98, 0.04, 0.25, -0.44, -0.67, -0.19, 0.84, -1.0, 0.61]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.917273+02:00', 'device_id': 'Device_8058', 'ip_address': '180.220.239.236', 'mac_address': '84:ad:f0:69:c2:7f', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Timothy', 'last_name': 'Rose', 'critical_data': {'patient_weight_kg': 59, 'bed_angle_deg': 30.6}}
+Дані передано до MQTT брокера: Device_8058
+Оновлено запис ID: 7901 | Останнє оновлення: 2024-12-05 12:56:42.917273+02:00 | Критичні дані: {'patient_weight_kg': 59, 'bed_angle_deg': 30.6}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.945807+02:00', 'device_id': 'Device_4342', 'ip_address': '50.131.217.28', 'mac_address': 'e6:df:32:a9:c8:78', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Nicole', 'last_name': 'Holland', 'critical_data': {'steps_count': 12938, 'calories_burned_kcal': 4399.31}}
+Дані передано до MQTT брокера: Device_4342
+Оновлено запис ID: 7902 | Останнє оновлення: 2024-12-05 12:56:42.945807+02:00 | Критичні дані: {'steps_count': 12938, 'calories_burned_kcal': 4399.31}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.953813+02:00', 'device_id': 'Device_9835', 'ip_address': '4.217.30.177', 'mac_address': 'ef:e0:09:a5:27:a6', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Steven', 'last_name': 'Ryan', 'critical_data': {'glucose_level_mg_dL': 126}}
+Дані передано до MQTT брокера: Device_9835
+Оновлено запис ID: 7903 | Останнє оновлення: 2024-12-05 12:56:42.953813+02:00 | Критичні дані: {'glucose_level_mg_dL': 126}
+Пристрій Device_9951 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.962408+02:00', 'device_id': 'Device_9749', 'ip_address': '120.234.30.234', 'mac_address': '26:52:b2:f0:7f:71', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Todd', 'last_name': 'Wells', 'critical_data': {'heart_rate': 126}}
+Дані передано до MQTT брокера: Device_9749
+Оновлено запис ID: 7905 | Останнє оновлення: 2024-12-05 12:56:42.962408+02:00 | Критичні дані: {'heart_rate': 126}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.970432+02:00', 'device_id': 'Device_2829', 'ip_address': '222.21.45.32', 'mac_address': '8f:0c:a1:65:60:38', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Chelsea', 'last_name': 'Valenzuela', 'critical_data': {'glucose_level_mg_dL': 178}}
+Дані передано до MQTT брокера: Device_2829
+Оновлено запис ID: 7906 | Останнє оновлення: 2024-12-05 12:56:42.970432+02:00 | Критичні дані: {'glucose_level_mg_dL': 178}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:42.977944+02:00', 'device_id': 'Device_3483', 'ip_address': '64.236.69.2', 'mac_address': '65:7b:3e:15:83:a9', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'MedTech Inc.', 'first_name': 'Lisa', 'last_name': 'Barton', 'critical_data': {'patient_weight_kg': 95, 'bed_angle_deg': 25.5}}
+Дані передано до MQTT брокера: Device_3483
+Оновлено запис ID: 7907 | Останнє оновлення: 2024-12-05 12:56:42.977944+02:00 | Критичні дані: {'patient_weight_kg': 95, 'bed_angle_deg': 25.5}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:43.006941+02:00', 'device_id': 'Device_8014', 'ip_address': '239.244.89.141', 'mac_address': 'ef:72:90:57:5c:79', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Dennis', 'last_name': 'Rhodes', 'critical_data': {'steps_count': 16141, 'calories_burned_kcal': 3486.65}}
+Дані передано до MQTT брокера: Device_8014
+Оновлено запис ID: 7908 | Останнє оновлення: 2024-12-05 12:56:43.006941+02:00 | Критичні дані: {'steps_count': 16141, 'calories_burned_kcal': 3486.65}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:56:43.017463+02:00', 'device_id': 'Device_8267', 'ip_address': '61.73.59.40', 'mac_address': '02:98:38:52:80:d6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Daniel', 'last_name': 'Lowe', 'critical_data': {'ecg_readings': [0.19, 0.94, 0.01, -0.89, -0.2, -0.28, 0.62, 0.49, -0.49, 0.22]}}
+Дані передано до MQTT брокера: Device_8267
+Оновлено запис ID: 7909 | Останнє оновлення: 2024-12-05 12:56:43.017463+02:00 | Критичні дані: {'ecg_readings': [0.19, 0.94, 0.01, -0.89, -0.2, -0.28, 0.62, 0.49, -0.49, 0.22]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.027164+02:00', 'device_id': 'Device_7070', 'ip_address': '211.82.242.210', 'mac_address': '47:8d:8f:e7:be:5f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Matthew', 'last_name': 'Clark', 'critical_data': {'infusion_rate_mL_h': 74.8}}
+Дані передано до MQTT брокера: Device_7070
+Оновлено запис ID: 7910 | Останнє оновлення: 2024-12-05 12:56:43.027164+02:00 | Критичні дані: {'infusion_rate_mL_h': 74.8}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.036126+02:00', 'device_id': 'Device_1619', 'ip_address': '70.56.245.116', 'mac_address': '21:4a:e7:bb:9c:3f', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Joshua', 'last_name': 'Lewis', 'critical_data': {'heart_rate': 166}}
+Дані передано до MQTT брокера: Device_1619
+Оновлено запис ID: 7911 | Останнє оновлення: 2024-12-05 12:56:43.036126+02:00 | Критичні дані: {'heart_rate': 166}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.069032+02:00', 'device_id': 'Device_1477', 'ip_address': '57.250.210.5', 'mac_address': '6a:00:32:7f:93:08', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Edwin', 'last_name': 'Fernandez', 'critical_data': {'infusion_rate_mL_h': 173.77}}
+Дані передано до MQTT брокера: Device_1477
+Оновлено запис ID: 7912 | Останнє оновлення: 2024-12-05 12:56:43.069032+02:00 | Критичні дані: {'infusion_rate_mL_h': 173.77}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.076543+02:00', 'device_id': 'Device_1220', 'ip_address': '14.195.53.153', 'mac_address': '0b:2c:b7:0e:16:73', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Edward', 'last_name': 'Gonzalez', 'critical_data': {'patient_weight_kg': 66, 'bed_angle_deg': 13.7}}
+Дані передано до MQTT брокера: Device_1220
+Оновлено запис ID: 7913 | Останнє оновлення: 2024-12-05 12:56:43.076543+02:00 | Критичні дані: {'patient_weight_kg': 66, 'bed_angle_deg': 13.7}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.084065+02:00', 'device_id': 'Device_1906', 'ip_address': '24.99.190.7', 'mac_address': 'f0:b1:da:bd:08:09', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Robert', 'last_name': 'Hughes', 'critical_data': {'glucose_level_mg_dL': 191}}
+Дані передано до MQTT брокера: Device_1906
+Оновлено запис ID: 7914 | Останнє оновлення: 2024-12-05 12:56:43.084065+02:00 | Критичні дані: {'glucose_level_mg_dL': 191}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:56:43.092076+02:00', 'device_id': 'Device_2736', 'ip_address': '201.42.100.129', 'mac_address': '2e:57:ea:77:51:d6', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'William', 'last_name': 'Stevens', 'critical_data': {'infusion_rate_mL_h': 361.15}}
+Дані передано до MQTT брокера: Device_2736
+Оновлено запис ID: 7882 | Останнє оновлення: 2024-12-05 12:56:43.092076+02:00 | Критичні дані: {'infusion_rate_mL_h': 361.15}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.115708+02:00', 'device_id': 'Device_5597', 'ip_address': '233.174.40.22', 'mac_address': 'eb:ed:5f:24:85:44', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Kelly', 'last_name': 'Moore', 'critical_data': {'infusion_rate_mL_h': 443.97}}
+Дані передано до MQTT брокера: Device_5597
+Оновлено запис ID: 7916 | Останнє оновлення: 2024-12-05 12:56:43.115708+02:00 | Критичні дані: {'infusion_rate_mL_h': 443.97}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.125549+02:00', 'device_id': 'Device_2026', 'ip_address': '114.245.8.206', 'mac_address': '6f:e4:63:18:80:77', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Joshua', 'last_name': 'Foster', 'critical_data': {'steps_count': 12865, 'calories_burned_kcal': 156.4}}
+Дані передано до MQTT брокера: Device_2026
+Оновлено запис ID: 7917 | Останнє оновлення: 2024-12-05 12:56:43.125549+02:00 | Критичні дані: {'steps_count': 12865, 'calories_burned_kcal': 156.4}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.146114+02:00', 'device_id': 'Device_6577', 'ip_address': '156.82.123.91', 'mac_address': '26:9d:08:32:3f:c2', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jared', 'last_name': 'Morrison', 'critical_data': {'oxygen_saturation_percent': 94.24, 'respiratory_rate_bpm': 12}}
+Дані передано до MQTT брокера: Device_6577
+Оновлено запис ID: 7918 | Останнє оновлення: 2024-12-05 12:56:43.146114+02:00 | Критичні дані: {'oxygen_saturation_percent': 94.24, 'respiratory_rate_bpm': 12}
+Пристрій Device_4718 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.178287+02:00', 'device_id': 'Device_2046', 'ip_address': '164.56.190.114', 'mac_address': 'c2:45:d0:02:cd:3e', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Shannon', 'last_name': 'Mack', 'critical_data': {'ecg_readings': [-0.76, 0.83, 0.16, -0.04, 0.43, 0.84, -0.53, 0.86, 0.77, -0.59]}}
+Дані передано до MQTT брокера: Device_2046
+Оновлено запис ID: 7920 | Останнє оновлення: 2024-12-05 12:56:43.178287+02:00 | Критичні дані: {'ecg_readings': [-0.76, 0.83, 0.16, -0.04, 0.43, 0.84, -0.53, 0.86, 0.77, -0.59]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.185801+02:00', 'device_id': 'Device_2614', 'ip_address': '156.219.83.45', 'mac_address': '28:5c:5e:e4:77:91', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Tabitha', 'last_name': 'Tran', 'critical_data': {'patient_weight_kg': 117, 'bed_angle_deg': 20.0}}
+Дані передано до MQTT брокера: Device_2614
+Оновлено запис ID: 7921 | Останнє оновлення: 2024-12-05 12:56:43.185801+02:00 | Критичні дані: {'patient_weight_kg': 117, 'bed_angle_deg': 20.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.207866+02:00', 'device_id': 'Device_8104', 'ip_address': '106.187.196.242', 'mac_address': 'a2:1c:e3:b1:20:d1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jimmy', 'last_name': 'Anderson', 'critical_data': {'heart_rate': 137}}
+Дані передано до MQTT брокера: Device_8104
+Оновлено запис ID: 7922 | Останнє оновлення: 2024-12-05 12:56:43.207866+02:00 | Критичні дані: {'heart_rate': 137}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.239940+02:00', 'device_id': 'Device_9965', 'ip_address': '226.1.171.209', 'mac_address': 'be:bf:4b:72:84:01', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Peter', 'last_name': 'Scott', 'critical_data': {'steps_count': 996, 'calories_burned_kcal': 4656.44}}
+Дані передано до MQTT брокера: Device_9965
+Оновлено запис ID: 7923 | Останнє оновлення: 2024-12-05 12:56:43.239940+02:00 | Критичні дані: {'steps_count': 996, 'calories_burned_kcal': 4656.44}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.272500+02:00', 'device_id': 'Device_4497', 'ip_address': '171.103.226.92', 'mac_address': 'b0:fe:94:bc:6e:4c', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Dakota', 'last_name': 'Wolfe', 'critical_data': {'heart_rate': 42}}
+Дані передано до MQTT брокера: Device_4497
+Оновлено запис ID: 7924 | Останнє оновлення: 2024-12-05 12:56:43.272500+02:00 | Критичні дані: {'heart_rate': 42}
+Пристрій Device_6137 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.301061+02:00', 'device_id': 'Device_6403', 'ip_address': '95.42.230.154', 'mac_address': '07:f9:36:08:60:47', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Justin', 'last_name': 'Mendoza', 'critical_data': {'steps_count': 5309, 'calories_burned_kcal': 1963.39}}
+Дані передано до MQTT брокера: Device_6403
+Оновлено запис ID: 7926 | Останнє оновлення: 2024-12-05 12:56:43.301061+02:00 | Критичні дані: {'steps_count': 5309, 'calories_burned_kcal': 1963.39}
+Пристрій Device_2669 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.331462+02:00', 'device_id': 'Device_1185', 'ip_address': '62.36.165.152', 'mac_address': '39:1e:33:22:d7:49', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'LifeFit Devices', 'first_name': 'Nathaniel', 'last_name': 'Mcconnell', 'critical_data': {'patient_weight_kg': 94, 'bed_angle_deg': 23.7}}
+Дані передано до MQTT брокера: Device_1185
+Оновлено запис ID: 7928 | Останнє оновлення: 2024-12-05 12:56:43.331462+02:00 | Критичні дані: {'patient_weight_kg': 94, 'bed_angle_deg': 23.7}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:56:43.364056+02:00', 'device_id': 'Device_6510', 'ip_address': '199.249.167.63', 'mac_address': 'b3:bc:df:bf:87:54', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Erica', 'last_name': 'Watts', 'critical_data': {'patient_weight_kg': 41, 'bed_angle_deg': 32.3}}
+Дані передано до MQTT брокера: Device_6510
+Оновлено запис ID: 7929 | Останнє оновлення: 2024-12-05 12:56:43.364056+02:00 | Критичні дані: {'patient_weight_kg': 41, 'bed_angle_deg': 32.3}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:56:43.394767+02:00', 'device_id': 'Device_1449', 'ip_address': '208.241.65.189', 'mac_address': 'be:48:4f:c5:42:ff', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'LifeFit Devices', 'first_name': 'Kevin', 'last_name': 'Lee', 'critical_data': {'glucose_level_mg_dL': 193}}
+Дані передано до MQTT брокера: Device_1449
+Оновлено запис ID: 7915 | Останнє оновлення: 2024-12-05 12:56:43.394767+02:00 | Критичні дані: {'glucose_level_mg_dL': 193}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:56:43.425322+02:00', 'device_id': 'Device_7551', 'ip_address': '243.100.114.167', 'mac_address': 'db:ab:72:0d:ce:54', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jordan', 'last_name': 'Holden', 'critical_data': {'infusion_rate_mL_h': 285.4}}
+Дані передано до MQTT брокера: Device_7551
+Оновлено запис ID: 7930 | Останнє оновлення: 2024-12-05 12:56:43.425322+02:00 | Критичні дані: {'infusion_rate_mL_h': 285.4}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:56:43.458146+02:00', 'device_id': 'Device_4226', 'ip_address': '151.177.63.149', 'mac_address': '70:7d:f7:8f:98:fb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Brandon', 'last_name': 'Nicholson', 'critical_data': {'ecg_readings': [0.78, -0.88, -0.72, 0.4, -0.15, -0.62, -0.09, -0.94, -0.86, 0.72]}}
+Дані передано до MQTT брокера: Device_4226
+Оновлено запис ID: 7931 | Останнє оновлення: 2024-12-05 12:56:43.458146+02:00 | Критичні дані: {'ecg_readings': [0.78, -0.88, -0.72, 0.4, -0.15, -0.62, -0.09, -0.94, -0.86, 0.72]}
+Оновлено 46 записів у базі.
+===== Початок оновлення =====
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:57:00.161762+02:00', 'device_id': 'Device_2736', 'ip_address': '201.42.100.129', 'mac_address': '2e:57:ea:77:51:d6', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Gina', 'last_name': 'Cook', 'critical_data': {'infusion_rate_mL_h': 449.48}}
+Дані передано до MQTT брокера: Device_2736
+Оновлено запис ID: 7882 | Останнє оновлення: 2024-12-05 12:57:00.161762+02:00 | Критичні дані: {'infusion_rate_mL_h': 449.48}
+Пристрій Device_3892 відключений. Критичні дані очищено.
+Пристрій Device_4177 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:57:00.197481+02:00', 'device_id': 'Device_2875', 'ip_address': '2.128.116.143', 'mac_address': '91:5a:8e:1c:a1:bb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Donna', 'last_name': 'Bernard', 'critical_data': {'ecg_readings': [0.03, 0.14, 0.02, 0.17, 0.53, -0.01, -0.33, -0.34, 0.46, 0.21]}}
+Дані передано до MQTT брокера: Device_2875
+Оновлено запис ID: 7885 | Останнє оновлення: 2024-12-05 12:57:00.197481+02:00 | Критичні дані: {'ecg_readings': [0.03, 0.14, 0.02, 0.17, 0.53, -0.01, -0.33, -0.34, 0.46, 0.21]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:57:00.226765+02:00', 'device_id': 'Device_4592', 'ip_address': '58.167.21.34', 'mac_address': '64:60:0a:9f:e1:f1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'William', 'last_name': 'Brown', 'critical_data': {'heart_rate': 147}}
+Дані передано до MQTT брокера: Device_4592
+Оновлено запис ID: 7886 | Останнє оновлення: 2024-12-05 12:57:00.226765+02:00 | Критичні дані: {'heart_rate': 147}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:57:00.257018+02:00', 'device_id': 'Device_4625', 'ip_address': '47.244.222.94', 'mac_address': '51:51:23:bb:60:b8', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'LifeFit Devices', 'first_name': 'Michael', 'last_name': 'Holmes', 'critical_data': {'oxygen_saturation_percent': 82.22, 'respiratory_rate_bpm': 14}}
+Дані передано до MQTT брокера: Device_4625
+Оновлено запис ID: 7887 | Останнє оновлення: 2024-12-05 12:57:00.257018+02:00 | Критичні дані: {'oxygen_saturation_percent': 82.22, 'respiratory_rate_bpm': 14}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.264018+02:00', 'device_id': 'Device_4544', 'ip_address': '65.202.87.169', 'mac_address': 'c1:75:5e:01:83:c6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Yolanda', 'last_name': 'Anderson', 'critical_data': {'ecg_readings': [-0.12, 1.0, -0.37, 0.81, -0.5, 0.48, 0.4, -0.19, -0.95, -0.17]}}
+Дані передано до MQTT брокера: Device_4544
+Оновлено запис ID: 7888 | Останнє оновлення: 2024-12-05 12:57:00.264018+02:00 | Критичні дані: {'ecg_readings': [-0.12, 1.0, -0.37, 0.81, -0.5, 0.48, 0.4, -0.19, -0.95, -0.17]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.272530+02:00', 'device_id': 'Device_6937', 'ip_address': '94.172.201.156', 'mac_address': '49:91:89:44:21:b4', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Robert', 'last_name': 'Johnson', 'critical_data': {'glucose_level_mg_dL': 94}}
+Дані передано до MQTT брокера: Device_6937
+Оновлено запис ID: 7889 | Останнє оновлення: 2024-12-05 12:57:00.272530+02:00 | Критичні дані: {'glucose_level_mg_dL': 94}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.304085+02:00', 'device_id': 'Device_7378', 'ip_address': '236.51.15.201', 'mac_address': 'a9:d9:72:5e:56:32', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Benjamin', 'last_name': 'Taylor', 'critical_data': {'oxygen_saturation_percent': 95.34, 'respiratory_rate_bpm': 11}}
+Дані передано до MQTT брокера: Device_7378
+Оновлено запис ID: 7890 | Останнє оновлення: 2024-12-05 12:57:00.304085+02:00 | Критичні дані: {'oxygen_saturation_percent': 95.34, 'respiratory_rate_bpm': 11}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.333071+02:00', 'device_id': 'Device_1768', 'ip_address': '143.166.65.153', 'mac_address': 'a9:60:35:ad:b8:e8', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'MedTech Inc.', 'first_name': 'Brian', 'last_name': 'Martin', 'critical_data': {'infusion_rate_mL_h': 282.88}}
+Дані передано до MQTT брокера: Device_1768
+Оновлено запис ID: 7891 | Останнє оновлення: 2024-12-05 12:57:00.333071+02:00 | Критичні дані: {'infusion_rate_mL_h': 282.88}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.365008+02:00', 'device_id': 'Device_5135', 'ip_address': '106.3.190.105', 'mac_address': 'f4:5a:17:67:f4:a1', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Erin', 'last_name': 'Nelson', 'critical_data': {'glucose_level_mg_dL': 144}}
+Дані передано до MQTT брокера: Device_5135
+Оновлено запис ID: 7892 | Останнє оновлення: 2024-12-05 12:57:00.365008+02:00 | Критичні дані: {'glucose_level_mg_dL': 144}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.395093+02:00', 'device_id': 'Device_8030', 'ip_address': '163.127.82.195', 'mac_address': 'd4:d5:63:48:5a:45', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Richard', 'last_name': 'Gonzales', 'critical_data': {'ecg_readings': [-0.61, 0.12, -0.23, 0.92, 0.53, -0.43, 0.68, -0.12, 0.83, -0.89]}}
+Дані передано до MQTT брокера: Device_8030
+Оновлено запис ID: 7893 | Останнє оновлення: 2024-12-05 12:57:00.395093+02:00 | Критичні дані: {'ecg_readings': [-0.61, 0.12, -0.23, 0.92, 0.53, -0.43, 0.68, -0.12, 0.83, -0.89]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.405207+02:00', 'device_id': 'Device_1015', 'ip_address': '117.242.114.17', 'mac_address': '74:fc:31:9b:b5:71', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Krista', 'last_name': 'Gonzalez', 'critical_data': {'glucose_level_mg_dL': 131}}
+Дані передано до MQTT брокера: Device_1015
+Оновлено запис ID: 7894 | Останнє оновлення: 2024-12-05 12:57:00.405207+02:00 | Критичні дані: {'glucose_level_mg_dL': 131}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.425954+02:00', 'device_id': 'Device_8373', 'ip_address': '81.131.79.228', 'mac_address': '42:16:41:11:23:1a', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Paul', 'last_name': 'Brewer', 'critical_data': {'ecg_readings': [0.69, -0.8, 0.54, -0.48, 0.54, -0.78, 0.89, -0.98, 0.54, 0.61]}}
+Дані передано до MQTT брокера: Device_8373
+Оновлено запис ID: 7895 | Останнє оновлення: 2024-12-05 12:57:00.425954+02:00 | Критичні дані: {'ecg_readings': [0.69, -0.8, 0.54, -0.48, 0.54, -0.78, 0.89, -0.98, 0.54, 0.61]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.458074+02:00', 'device_id': 'Device_5607', 'ip_address': '84.245.115.184', 'mac_address': '59:47:e5:7f:1f:b8', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Kathryn', 'last_name': 'Morales', 'critical_data': {'steps_count': 7757, 'calories_burned_kcal': 1590.49}}
+Дані передано до MQTT брокера: Device_5607
+Оновлено запис ID: 7896 | Останнє оновлення: 2024-12-05 12:57:00.458074+02:00 | Критичні дані: {'steps_count': 7757, 'calories_burned_kcal': 1590.49}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.466595+02:00', 'device_id': 'Device_4312', 'ip_address': '225.27.168.109', 'mac_address': 'e8:43:6b:2f:9b:e8', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'David', 'last_name': 'Stafford', 'critical_data': {'blood_pressure': '112/89'}}
+Дані передано до MQTT брокера: Device_4312
+Оновлено запис ID: 7897 | Останнє оновлення: 2024-12-05 12:57:00.466595+02:00 | Критичні дані: {'blood_pressure': '112/89'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:57:00.490124+02:00', 'device_id': 'Device_5542', 'ip_address': '56.84.79.168', 'mac_address': '97:c4:32:a5:04:60', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Nicholas', 'last_name': 'Lewis', 'critical_data': {'patient_weight_kg': 190, 'bed_angle_deg': 1.8}}
+Дані передано до MQTT брокера: Device_5542
+Оновлено запис ID: 7898 | Останнє оновлення: 2024-12-05 12:57:00.490124+02:00 | Критичні дані: {'patient_weight_kg': 190, 'bed_angle_deg': 1.8}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.499123+02:00', 'device_id': 'Device_1453', 'ip_address': '42.187.18.230', 'mac_address': 'af:a5:6d:18:22:86', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Johnny', 'last_name': 'Garrison', 'critical_data': {'blood_pressure': '158/118'}}
+Дані передано до MQTT брокера: Device_1453
+Оновлено запис ID: 7899 | Останнє оновлення: 2024-12-05 12:57:00.499123+02:00 | Критичні дані: {'blood_pressure': '158/118'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.523429+02:00', 'device_id': 'Device_4685', 'ip_address': '102.120.232.187', 'mac_address': '00:f0:b8:1c:4e:68', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Kyle', 'last_name': 'Watson', 'critical_data': {'ecg_readings': [0.81, -0.22, 0.33, -0.69, 0.98, 0.2, -0.94, -0.08, 0.59, 0.15]}}
+Дані передано до MQTT брокера: Device_4685
+Оновлено запис ID: 7900 | Останнє оновлення: 2024-12-05 12:57:00.523429+02:00 | Критичні дані: {'ecg_readings': [0.81, -0.22, 0.33, -0.69, 0.98, 0.2, -0.94, -0.08, 0.59, 0.15]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.533881+02:00', 'device_id': 'Device_8058', 'ip_address': '180.220.239.236', 'mac_address': '84:ad:f0:69:c2:7f', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Carrie', 'last_name': 'Mays', 'critical_data': {'patient_weight_kg': 93, 'bed_angle_deg': 6.7}}
+Дані передано до MQTT брокера: Device_8058
+Оновлено запис ID: 7901 | Останнє оновлення: 2024-12-05 12:57:00.533881+02:00 | Критичні дані: {'patient_weight_kg': 93, 'bed_angle_deg': 6.7}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.566774+02:00', 'device_id': 'Device_4342', 'ip_address': '50.131.217.28', 'mac_address': 'e6:df:32:a9:c8:78', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Erika', 'last_name': 'Rodriguez', 'critical_data': {'steps_count': 1142, 'calories_burned_kcal': 2696.81}}
+Дані передано до MQTT брокера: Device_4342
+Оновлено запис ID: 7902 | Останнє оновлення: 2024-12-05 12:57:00.566774+02:00 | Критичні дані: {'steps_count': 1142, 'calories_burned_kcal': 2696.81}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.574811+02:00', 'device_id': 'Device_9835', 'ip_address': '4.217.30.177', 'mac_address': 'ef:e0:09:a5:27:a6', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Dylan', 'last_name': 'Mitchell', 'critical_data': {'glucose_level_mg_dL': 184}}
+Дані передано до MQTT брокера: Device_9835
+Оновлено запис ID: 7903 | Останнє оновлення: 2024-12-05 12:57:00.574811+02:00 | Критичні дані: {'glucose_level_mg_dL': 184}
+Пристрій Device_9951 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.600502+02:00', 'device_id': 'Device_9749', 'ip_address': '120.234.30.234', 'mac_address': '26:52:b2:f0:7f:71', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Christopher', 'last_name': 'Hall', 'critical_data': {'heart_rate': 49}}
+Дані передано до MQTT брокера: Device_9749
+Оновлено запис ID: 7905 | Останнє оновлення: 2024-12-05 12:57:00.600502+02:00 | Критичні дані: {'heart_rate': 49}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.628840+02:00', 'device_id': 'Device_2829', 'ip_address': '222.21.45.32', 'mac_address': '8f:0c:a1:65:60:38', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Stacey', 'last_name': 'Webb', 'critical_data': {'glucose_level_mg_dL': 101}}
+Дані передано до MQTT брокера: Device_2829
+Оновлено запис ID: 7906 | Останнє оновлення: 2024-12-05 12:57:00.628840+02:00 | Критичні дані: {'glucose_level_mg_dL': 101}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.637516+02:00', 'device_id': 'Device_3483', 'ip_address': '64.236.69.2', 'mac_address': '65:7b:3e:15:83:a9', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'MedTech Inc.', 'first_name': 'Robin', 'last_name': 'Allen', 'critical_data': {'patient_weight_kg': 67, 'bed_angle_deg': 29.0}}
+Дані передано до MQTT брокера: Device_3483
+Оновлено запис ID: 7907 | Останнє оновлення: 2024-12-05 12:57:00.637516+02:00 | Критичні дані: {'patient_weight_kg': 67, 'bed_angle_deg': 29.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.659570+02:00', 'device_id': 'Device_8014', 'ip_address': '239.244.89.141', 'mac_address': 'ef:72:90:57:5c:79', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Ralph', 'last_name': 'Cook', 'critical_data': {'steps_count': 8968, 'calories_burned_kcal': 4482.28}}
+Дані передано до MQTT брокера: Device_8014
+Оновлено запис ID: 7908 | Останнє оновлення: 2024-12-05 12:57:00.659570+02:00 | Критичні дані: {'steps_count': 8968, 'calories_burned_kcal': 4482.28}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:57:00.667117+02:00', 'device_id': 'Device_8267', 'ip_address': '61.73.59.40', 'mac_address': '02:98:38:52:80:d6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Diana', 'last_name': 'Rodriguez', 'critical_data': {'ecg_readings': [-0.57, -0.43, -0.11, -0.28, 0.95, 0.0, 0.4, 0.02, 0.13, 0.1]}}
+Дані передано до MQTT брокера: Device_8267
+Оновлено запис ID: 7909 | Останнє оновлення: 2024-12-05 12:57:00.667117+02:00 | Критичні дані: {'ecg_readings': [-0.57, -0.43, -0.11, -0.28, 0.95, 0.0, 0.4, 0.02, 0.13, 0.1]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.691240+02:00', 'device_id': 'Device_7070', 'ip_address': '211.82.242.210', 'mac_address': '47:8d:8f:e7:be:5f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Gina', 'last_name': 'Hebert', 'critical_data': {'infusion_rate_mL_h': 446.5}}
+Дані передано до MQTT брокера: Device_7070
+Оновлено запис ID: 7910 | Останнє оновлення: 2024-12-05 12:57:00.691240+02:00 | Критичні дані: {'infusion_rate_mL_h': 446.5}
+Пристрій Device_1619 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.701776+02:00', 'device_id': 'Device_1477', 'ip_address': '57.250.210.5', 'mac_address': '6a:00:32:7f:93:08', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Sarah', 'last_name': 'Mcbride', 'critical_data': {'infusion_rate_mL_h': 102.27}}
+Дані передано до MQTT брокера: Device_1477
+Оновлено запис ID: 7912 | Останнє оновлення: 2024-12-05 12:57:00.701776+02:00 | Критичні дані: {'infusion_rate_mL_h': 102.27}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.724346+02:00', 'device_id': 'Device_1220', 'ip_address': '14.195.53.153', 'mac_address': '0b:2c:b7:0e:16:73', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jonathan', 'last_name': 'Morris', 'critical_data': {'patient_weight_kg': 125, 'bed_angle_deg': 23.0}}
+Дані передано до MQTT брокера: Device_1220
+Оновлено запис ID: 7913 | Останнє оновлення: 2024-12-05 12:57:00.724346+02:00 | Критичні дані: {'patient_weight_kg': 125, 'bed_angle_deg': 23.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.737394+02:00', 'device_id': 'Device_1906', 'ip_address': '24.99.190.7', 'mac_address': 'f0:b1:da:bd:08:09', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Nicholas', 'last_name': 'Johnson', 'critical_data': {'glucose_level_mg_dL': 126}}
+Дані передано до MQTT брокера: Device_1906
+Оновлено запис ID: 7914 | Останнє оновлення: 2024-12-05 12:57:00.737394+02:00 | Критичні дані: {'glucose_level_mg_dL': 126}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.749487+02:00', 'device_id': 'Device_1449', 'ip_address': '208.241.65.189', 'mac_address': 'be:48:4f:c5:42:ff', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'LifeFit Devices', 'first_name': 'George', 'last_name': 'Johns', 'critical_data': {'glucose_level_mg_dL': 154}}
+Дані передано до MQTT брокера: Device_1449
+Оновлено запис ID: 7915 | Останнє оновлення: 2024-12-05 12:57:00.749487+02:00 | Критичні дані: {'glucose_level_mg_dL': 154}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.758552+02:00', 'device_id': 'Device_5597', 'ip_address': '233.174.40.22', 'mac_address': 'eb:ed:5f:24:85:44', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Michael', 'last_name': 'Duarte', 'critical_data': {'infusion_rate_mL_h': 300.89}}
+Дані передано до MQTT брокера: Device_5597
+Оновлено запис ID: 7916 | Останнє оновлення: 2024-12-05 12:57:00.758552+02:00 | Критичні дані: {'infusion_rate_mL_h': 300.89}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.782626+02:00', 'device_id': 'Device_2026', 'ip_address': '114.245.8.206', 'mac_address': '6f:e4:63:18:80:77', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Carrie', 'last_name': 'Giles', 'critical_data': {'steps_count': 19962, 'calories_burned_kcal': 254.47}}
+Дані передано до MQTT брокера: Device_2026
+Оновлено запис ID: 7917 | Останнє оновлення: 2024-12-05 12:57:00.782626+02:00 | Критичні дані: {'steps_count': 19962, 'calories_burned_kcal': 254.47}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.814759+02:00', 'device_id': 'Device_6577', 'ip_address': '156.82.123.91', 'mac_address': '26:9d:08:32:3f:c2', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'HealthPro Systems', 'first_name': 'Kathleen', 'last_name': 'Meyer', 'critical_data': {'oxygen_saturation_percent': 89.03, 'respiratory_rate_bpm': 13}}
+Дані передано до MQTT брокера: Device_6577
+Оновлено запис ID: 7918 | Останнє оновлення: 2024-12-05 12:57:00.814759+02:00 | Критичні дані: {'oxygen_saturation_percent': 89.03, 'respiratory_rate_bpm': 13}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:57:00.825792+02:00', 'device_id': 'Device_4718', 'ip_address': '20.147.24.39', 'mac_address': 'd5:9e:b3:59:7a:9c', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Richard', 'last_name': 'Medina', 'critical_data': {'steps_count': 2858, 'calories_burned_kcal': 1512.39}}
+Дані передано до MQTT брокера: Device_4718
+Оновлено запис ID: 7919 | Останнє оновлення: 2024-12-05 12:57:00.825792+02:00 | Критичні дані: {'steps_count': 2858, 'calories_burned_kcal': 1512.39}
+Пристрій Device_2046 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.846888+02:00', 'device_id': 'Device_2614', 'ip_address': '156.219.83.45', 'mac_address': '28:5c:5e:e4:77:91', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Mary', 'last_name': 'Powell', 'critical_data': {'patient_weight_kg': 157, 'bed_angle_deg': 38.3}}
+Дані передано до MQTT брокера: Device_2614
+Оновлено запис ID: 7921 | Останнє оновлення: 2024-12-05 12:57:00.846888+02:00 | Критичні дані: {'patient_weight_kg': 157, 'bed_angle_deg': 38.3}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.874940+02:00', 'device_id': 'Device_8104', 'ip_address': '106.187.196.242', 'mac_address': 'a2:1c:e3:b1:20:d1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Amy', 'last_name': 'Morgan', 'critical_data': {'heart_rate': 40}}
+Дані передано до MQTT брокера: Device_8104
+Оновлено запис ID: 7922 | Останнє оновлення: 2024-12-05 12:57:00.874940+02:00 | Критичні дані: {'heart_rate': 40}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.882931+02:00', 'device_id': 'Device_9965', 'ip_address': '226.1.171.209', 'mac_address': 'be:bf:4b:72:84:01', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Michelle', 'last_name': 'Brown', 'critical_data': {'steps_count': 5065, 'calories_burned_kcal': 4593.89}}
+Дані передано до MQTT брокера: Device_9965
+Оновлено запис ID: 7923 | Останнє оновлення: 2024-12-05 12:57:00.882931+02:00 | Критичні дані: {'steps_count': 5065, 'calories_burned_kcal': 4593.89}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.890942+02:00', 'device_id': 'Device_4497', 'ip_address': '171.103.226.92', 'mac_address': 'b0:fe:94:bc:6e:4c', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Stephanie', 'last_name': 'Watson', 'critical_data': {'heart_rate': 81}}
+Дані передано до MQTT брокера: Device_4497
+Оновлено запис ID: 7924 | Останнє оновлення: 2024-12-05 12:57:00.890942+02:00 | Критичні дані: {'heart_rate': 81}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.926492+02:00', 'device_id': 'Device_6137', 'ip_address': '59.160.30.236', 'mac_address': 'bb:5e:88:3d:ff:c4', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'MedTech Inc.', 'first_name': 'Michael', 'last_name': 'Goodman', 'critical_data': {'oxygen_saturation_percent': 90.86, 'respiratory_rate_bpm': 19}}
+Дані передано до MQTT брокера: Device_6137
+Оновлено запис ID: 7925 | Останнє оновлення: 2024-12-05 12:57:00.926492+02:00 | Критичні дані: {'oxygen_saturation_percent': 90.86, 'respiratory_rate_bpm': 19}
+Пристрій Device_6403 відключений. Критичні дані очищено.
+Пристрій Device_2669 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.956621+02:00', 'device_id': 'Device_1185', 'ip_address': '62.36.165.152', 'mac_address': '39:1e:33:22:d7:49', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'LifeFit Devices', 'first_name': 'Ann', 'last_name': 'Wolf', 'critical_data': {'patient_weight_kg': 133, 'bed_angle_deg': 23.2}}
+Дані передано до MQTT брокера: Device_1185
+Оновлено запис ID: 7928 | Останнє оновлення: 2024-12-05 12:57:00.956621+02:00 | Критичні дані: {'patient_weight_kg': 133, 'bed_angle_deg': 23.2}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:57:00.965155+02:00', 'device_id': 'Device_6510', 'ip_address': '199.249.167.63', 'mac_address': 'b3:bc:df:bf:87:54', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Laura', 'last_name': 'Miller', 'critical_data': {'patient_weight_kg': 168, 'bed_angle_deg': 15.6}}
+Дані передано до MQTT брокера: Device_6510
+Оновлено запис ID: 7929 | Останнє оновлення: 2024-12-05 12:57:00.965155+02:00 | Критичні дані: {'patient_weight_kg': 168, 'bed_angle_deg': 15.6}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:57:00.985203+02:00', 'device_id': 'Device_7551', 'ip_address': '243.100.114.167', 'mac_address': 'db:ab:72:0d:ce:54', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jasmine', 'last_name': 'Williams', 'critical_data': {'infusion_rate_mL_h': 460.84}}
+Дані передано до MQTT брокера: Device_7551
+Оновлено запис ID: 7930 | Останнє оновлення: 2024-12-05 12:57:00.985203+02:00 | Критичні дані: {'infusion_rate_mL_h': 460.84}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:57:01.015842+02:00', 'device_id': 'Device_4226', 'ip_address': '151.177.63.149', 'mac_address': '70:7d:f7:8f:98:fb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Dustin', 'last_name': 'Arnold', 'critical_data': {'ecg_readings': [-0.64, 0.33, -0.8, 0.78, 0.92, -0.15, -0.99, 0.69, -0.51, -0.9]}}
+Дані передано до MQTT брокера: Device_4226
+Оновлено запис ID: 7931 | Останнє оновлення: 2024-12-05 12:57:01.015842+02:00 | Критичні дані: {'ecg_readings': [-0.64, 0.33, -0.8, 0.78, 0.92, -0.15, -0.99, 0.69, -0.51, -0.9]}
+Оновлено 43 записів у базі.
+===== Початок оновлення =====
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:58:58.082264+02:00', 'device_id': 'Device_2736', 'ip_address': '201.42.100.129', 'mac_address': '2e:57:ea:77:51:d6', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Steven', 'last_name': 'Perry', 'critical_data': {'infusion_rate_mL_h': 114.58}}
+Дані передано до MQTT брокера: Device_2736
+Оновлено запис ID: 8195 | Останнє оновлення: 2024-12-05 12:58:58.082264+02:00 | Критичні дані: {'infusion_rate_mL_h': 114.58}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:58:58.108868+02:00', 'device_id': 'Device_3892', 'ip_address': '8.232.73.245', 'mac_address': '16:ca:04:8f:1a:7f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Anna', 'last_name': 'Perkins', 'critical_data': {'infusion_rate_mL_h': 40.78}}
+Дані передано до MQTT брокера: Device_3892
+Оновлено запис ID: 8196 | Останнє оновлення: 2024-12-05 12:58:58.108868+02:00 | Критичні дані: {'infusion_rate_mL_h': 40.78}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:58:58.140083+02:00', 'device_id': 'Device_4177', 'ip_address': '200.110.39.45', 'mac_address': '37:0d:88:72:f8:f0', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Sabrina', 'last_name': 'Barajas', 'critical_data': {'infusion_rate_mL_h': 484.77}}
+Дані передано до MQTT брокера: Device_4177
+Оновлено запис ID: 8197 | Останнє оновлення: 2024-12-05 12:58:58.140083+02:00 | Критичні дані: {'infusion_rate_mL_h': 484.77}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:58:58.172368+02:00', 'device_id': 'Device_2875', 'ip_address': '2.128.116.143', 'mac_address': '91:5a:8e:1c:a1:bb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Linda', 'last_name': 'Greene', 'critical_data': {'ecg_readings': [-0.57, 0.27, 0.62, 0.18, 0.8, -0.88, 0.96, -0.24, 0.36, -0.59]}}
+Дані передано до MQTT брокера: Device_2875
+Оновлено запис ID: 8198 | Останнє оновлення: 2024-12-05 12:58:58.172368+02:00 | Критичні дані: {'ecg_readings': [-0.57, 0.27, 0.62, 0.18, 0.8, -0.88, 0.96, -0.24, 0.36, -0.59]}
+Пристрій Device_4592 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:58:58.203014+02:00', 'device_id': 'Device_4625', 'ip_address': '47.244.222.94', 'mac_address': '51:51:23:bb:60:b8', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'LifeFit Devices', 'first_name': 'Christopher', 'last_name': 'Martin', 'critical_data': {'oxygen_saturation_percent': 88.02, 'respiratory_rate_bpm': 18}}
+Дані передано до MQTT брокера: Device_4625
+Оновлено запис ID: 8200 | Останнє оновлення: 2024-12-05 12:58:58.203014+02:00 | Критичні дані: {'oxygen_saturation_percent': 88.02, 'respiratory_rate_bpm': 18}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.232447+02:00', 'device_id': 'Device_4544', 'ip_address': '65.202.87.169', 'mac_address': 'c1:75:5e:01:83:c6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Traci', 'last_name': 'Tran', 'critical_data': {'ecg_readings': [0.53, 0.47, -0.95, 0.66, 0.13, -0.57, 0.05, 0.67, 0.53, 0.31]}}
+Дані передано до MQTT брокера: Device_4544
+Оновлено запис ID: 8201 | Останнє оновлення: 2024-12-05 12:58:58.232447+02:00 | Критичні дані: {'ecg_readings': [0.53, 0.47, -0.95, 0.66, 0.13, -0.57, 0.05, 0.67, 0.53, 0.31]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.263983+02:00', 'device_id': 'Device_6937', 'ip_address': '94.172.201.156', 'mac_address': '49:91:89:44:21:b4', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Jason', 'last_name': 'Turner', 'critical_data': {'glucose_level_mg_dL': 170}}
+Дані передано до MQTT брокера: Device_6937
+Оновлено запис ID: 8202 | Останнє оновлення: 2024-12-05 12:58:58.263983+02:00 | Критичні дані: {'glucose_level_mg_dL': 170}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.293880+02:00', 'device_id': 'Device_7378', 'ip_address': '236.51.15.201', 'mac_address': 'a9:d9:72:5e:56:32', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'BioMonitor Co.', 'first_name': 'William', 'last_name': 'Mitchell', 'critical_data': {'oxygen_saturation_percent': 83.58, 'respiratory_rate_bpm': 22}}
+Дані передано до MQTT брокера: Device_7378
+Оновлено запис ID: 8203 | Останнє оновлення: 2024-12-05 12:58:58.293880+02:00 | Критичні дані: {'oxygen_saturation_percent': 83.58, 'respiratory_rate_bpm': 22}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.326812+02:00', 'device_id': 'Device_1768', 'ip_address': '143.166.65.153', 'mac_address': 'a9:60:35:ad:b8:e8', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'MedTech Inc.', 'first_name': 'Virginia', 'last_name': 'Fields', 'critical_data': {'infusion_rate_mL_h': 480.76}}
+Дані передано до MQTT брокера: Device_1768
+Оновлено запис ID: 8204 | Останнє оновлення: 2024-12-05 12:58:58.326812+02:00 | Критичні дані: {'infusion_rate_mL_h': 480.76}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.357135+02:00', 'device_id': 'Device_5135', 'ip_address': '106.3.190.105', 'mac_address': 'f4:5a:17:67:f4:a1', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Stephanie', 'last_name': 'Maynard', 'critical_data': {'glucose_level_mg_dL': 75}}
+Дані передано до MQTT брокера: Device_5135
+Оновлено запис ID: 8205 | Останнє оновлення: 2024-12-05 12:58:58.357135+02:00 | Критичні дані: {'glucose_level_mg_dL': 75}
+Пристрій Device_8030 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.390954+02:00', 'device_id': 'Device_1015', 'ip_address': '117.242.114.17', 'mac_address': '74:fc:31:9b:b5:71', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Alyssa', 'last_name': 'Ayala', 'critical_data': {'glucose_level_mg_dL': 137}}
+Дані передано до MQTT брокера: Device_1015
+Оновлено запис ID: 8207 | Останнє оновлення: 2024-12-05 12:58:58.390954+02:00 | Критичні дані: {'glucose_level_mg_dL': 137}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.418430+02:00', 'device_id': 'Device_8373', 'ip_address': '81.131.79.228', 'mac_address': '42:16:41:11:23:1a', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Joshua', 'last_name': 'Pace', 'critical_data': {'ecg_readings': [0.83, -0.35, 0.43, -0.5, -0.93, 0.44, -0.45, -0.54, 0.31, -0.91]}}
+Дані передано до MQTT брокера: Device_8373
+Оновлено запис ID: 8208 | Останнє оновлення: 2024-12-05 12:58:58.418430+02:00 | Критичні дані: {'ecg_readings': [0.83, -0.35, 0.43, -0.5, -0.93, 0.44, -0.45, -0.54, 0.31, -0.91]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.449087+02:00', 'device_id': 'Device_5607', 'ip_address': '84.245.115.184', 'mac_address': '59:47:e5:7f:1f:b8', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Gregory', 'last_name': 'Garza', 'critical_data': {'steps_count': 2979, 'calories_burned_kcal': 4149.09}}
+Дані передано до MQTT брокера: Device_5607
+Оновлено запис ID: 8209 | Останнє оновлення: 2024-12-05 12:58:58.449087+02:00 | Критичні дані: {'steps_count': 2979, 'calories_burned_kcal': 4149.09}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.479860+02:00', 'device_id': 'Device_4312', 'ip_address': '225.27.168.109', 'mac_address': 'e8:43:6b:2f:9b:e8', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Shannon', 'last_name': 'Macdonald', 'critical_data': {'blood_pressure': '162/101'}}
+Дані передано до MQTT брокера: Device_4312
+Оновлено запис ID: 8210 | Останнє оновлення: 2024-12-05 12:58:58.479860+02:00 | Критичні дані: {'blood_pressure': '162/101'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:58:58.513060+02:00', 'device_id': 'Device_5542', 'ip_address': '56.84.79.168', 'mac_address': '97:c4:32:a5:04:60', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Misty', 'last_name': 'Hansen', 'critical_data': {'patient_weight_kg': 140, 'bed_angle_deg': 40.4}}
+Дані передано до MQTT брокера: Device_5542
+Оновлено запис ID: 8211 | Останнє оновлення: 2024-12-05 12:58:58.513060+02:00 | Критичні дані: {'patient_weight_kg': 140, 'bed_angle_deg': 40.4}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.545016+02:00', 'device_id': 'Device_1453', 'ip_address': '42.187.18.230', 'mac_address': 'af:a5:6d:18:22:86', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'John', 'last_name': 'Black', 'critical_data': {'blood_pressure': '151/61'}}
+Дані передано до MQTT брокера: Device_1453
+Оновлено запис ID: 8212 | Останнє оновлення: 2024-12-05 12:58:58.545016+02:00 | Критичні дані: {'blood_pressure': '151/61'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.553133+02:00', 'device_id': 'Device_4685', 'ip_address': '102.120.232.187', 'mac_address': '00:f0:b8:1c:4e:68', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'John', 'last_name': 'Lewis', 'critical_data': {'ecg_readings': [0.89, -0.01, -0.58, 0.58, -0.86, -0.71, -0.03, -0.67, 0.95, 0.95]}}
+Дані передано до MQTT брокера: Device_4685
+Оновлено запис ID: 8213 | Останнє оновлення: 2024-12-05 12:58:58.553133+02:00 | Критичні дані: {'ecg_readings': [0.89, -0.01, -0.58, 0.58, -0.86, -0.71, -0.03, -0.67, 0.95, 0.95]}
+Пристрій Device_8058 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.577366+02:00', 'device_id': 'Device_4342', 'ip_address': '50.131.217.28', 'mac_address': 'e6:df:32:a9:c8:78', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Anne', 'last_name': 'Tanner', 'critical_data': {'steps_count': 533, 'calories_burned_kcal': 4672.58}}
+Дані передано до MQTT брокера: Device_4342
+Оновлено запис ID: 8215 | Останнє оновлення: 2024-12-05 12:58:58.577366+02:00 | Критичні дані: {'steps_count': 533, 'calories_burned_kcal': 4672.58}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.605853+02:00', 'device_id': 'Device_9835', 'ip_address': '4.217.30.177', 'mac_address': 'ef:e0:09:a5:27:a6', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Curtis', 'last_name': 'Ramirez', 'critical_data': {'glucose_level_mg_dL': 81}}
+Дані передано до MQTT брокера: Device_9835
+Оновлено запис ID: 8216 | Останнє оновлення: 2024-12-05 12:58:58.605853+02:00 | Критичні дані: {'glucose_level_mg_dL': 81}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.636354+02:00', 'device_id': 'Device_9951', 'ip_address': '246.52.112.53', 'mac_address': '6b:1f:a0:a4:f0:aa', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Jacob', 'last_name': 'Donovan', 'critical_data': {'glucose_level_mg_dL': 191}}
+Дані передано до MQTT брокера: Device_9951
+Оновлено запис ID: 8217 | Останнє оновлення: 2024-12-05 12:58:58.636354+02:00 | Критичні дані: {'glucose_level_mg_dL': 191}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.667138+02:00', 'device_id': 'Device_9749', 'ip_address': '120.234.30.234', 'mac_address': '26:52:b2:f0:7f:71', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Riley', 'last_name': 'Hensley', 'critical_data': {'heart_rate': 79}}
+Дані передано до MQTT брокера: Device_9749
+Оновлено запис ID: 8218 | Останнє оновлення: 2024-12-05 12:58:58.667138+02:00 | Критичні дані: {'heart_rate': 79}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.700782+02:00', 'device_id': 'Device_2829', 'ip_address': '222.21.45.32', 'mac_address': '8f:0c:a1:65:60:38', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Samantha', 'last_name': 'Horne', 'critical_data': {'glucose_level_mg_dL': 109}}
+Дані передано до MQTT брокера: Device_2829
+Оновлено запис ID: 8219 | Останнє оновлення: 2024-12-05 12:58:58.700782+02:00 | Критичні дані: {'glucose_level_mg_dL': 109}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.730344+02:00', 'device_id': 'Device_3483', 'ip_address': '64.236.69.2', 'mac_address': '65:7b:3e:15:83:a9', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'MedTech Inc.', 'first_name': 'Amanda', 'last_name': 'Villa', 'critical_data': {'patient_weight_kg': 173, 'bed_angle_deg': 16.5}}
+Дані передано до MQTT брокера: Device_3483
+Оновлено запис ID: 8220 | Останнє оновлення: 2024-12-05 12:58:58.730344+02:00 | Критичні дані: {'patient_weight_kg': 173, 'bed_angle_deg': 16.5}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.760986+02:00', 'device_id': 'Device_8014', 'ip_address': '239.244.89.141', 'mac_address': 'ef:72:90:57:5c:79', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Eric', 'last_name': 'Myers', 'critical_data': {'steps_count': 17610, 'calories_burned_kcal': 3049.98}}
+Дані передано до MQTT брокера: Device_8014
+Оновлено запис ID: 8221 | Останнє оновлення: 2024-12-05 12:58:58.760986+02:00 | Критичні дані: {'steps_count': 17610, 'calories_burned_kcal': 3049.98}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:58:58.791870+02:00', 'device_id': 'Device_8267', 'ip_address': '61.73.59.40', 'mac_address': '02:98:38:52:80:d6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Amber', 'last_name': 'Christian', 'critical_data': {'ecg_readings': [0.42, 0.62, 0.27, -0.3, 0.36, 0.35, 0.14, -0.52, 0.56, -0.56]}}
+Дані передано до MQTT брокера: Device_8267
+Оновлено запис ID: 8222 | Останнє оновлення: 2024-12-05 12:58:58.791870+02:00 | Критичні дані: {'ecg_readings': [0.42, 0.62, 0.27, -0.3, 0.36, 0.35, 0.14, -0.52, 0.56, -0.56]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.823086+02:00', 'device_id': 'Device_7070', 'ip_address': '211.82.242.210', 'mac_address': '47:8d:8f:e7:be:5f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Danielle', 'last_name': 'Evans', 'critical_data': {'infusion_rate_mL_h': 81.69}}
+Дані передано до MQTT брокера: Device_7070
+Оновлено запис ID: 8223 | Останнє оновлення: 2024-12-05 12:58:58.823086+02:00 | Критичні дані: {'infusion_rate_mL_h': 81.69}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.855209+02:00', 'device_id': 'Device_1619', 'ip_address': '70.56.245.116', 'mac_address': '21:4a:e7:bb:9c:3f', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'John', 'last_name': 'Brewer', 'critical_data': {'heart_rate': 129}}
+Дані передано до MQTT брокера: Device_1619
+Оновлено запис ID: 8224 | Останнє оновлення: 2024-12-05 12:58:58.855209+02:00 | Критичні дані: {'heart_rate': 129}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.884601+02:00', 'device_id': 'Device_1477', 'ip_address': '57.250.210.5', 'mac_address': '6a:00:32:7f:93:08', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jacob', 'last_name': 'Castillo', 'critical_data': {'infusion_rate_mL_h': 81.54}}
+Дані передано до MQTT брокера: Device_1477
+Оновлено запис ID: 8225 | Останнє оновлення: 2024-12-05 12:58:58.884601+02:00 | Критичні дані: {'infusion_rate_mL_h': 81.54}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.916008+02:00', 'device_id': 'Device_1220', 'ip_address': '14.195.53.153', 'mac_address': '0b:2c:b7:0e:16:73', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Sandra', 'last_name': 'Love', 'critical_data': {'patient_weight_kg': 73, 'bed_angle_deg': 32.5}}
+Дані передано до MQTT брокера: Device_1220
+Оновлено запис ID: 8226 | Останнє оновлення: 2024-12-05 12:58:58.916008+02:00 | Критичні дані: {'patient_weight_kg': 73, 'bed_angle_deg': 32.5}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.924169+02:00', 'device_id': 'Device_1906', 'ip_address': '24.99.190.7', 'mac_address': 'f0:b1:da:bd:08:09', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Michelle', 'last_name': 'Perez', 'critical_data': {'glucose_level_mg_dL': 160}}
+Дані передано до MQTT брокера: Device_1906
+Оновлено запис ID: 8227 | Останнє оновлення: 2024-12-05 12:58:58.924169+02:00 | Критичні дані: {'glucose_level_mg_dL': 160}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.932160+02:00', 'device_id': 'Device_1449', 'ip_address': '208.241.65.189', 'mac_address': 'be:48:4f:c5:42:ff', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'LifeFit Devices', 'first_name': 'Kristi', 'last_name': 'Gonzalez', 'critical_data': {'glucose_level_mg_dL': 180}}
+Дані передано до MQTT брокера: Device_1449
+Оновлено запис ID: 8228 | Останнє оновлення: 2024-12-05 12:58:58.932160+02:00 | Критичні дані: {'glucose_level_mg_dL': 180}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.939683+02:00', 'device_id': 'Device_5597', 'ip_address': '233.174.40.22', 'mac_address': 'eb:ed:5f:24:85:44', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Gregory', 'last_name': 'Gregory', 'critical_data': {'infusion_rate_mL_h': 94.02}}
+Дані передано до MQTT брокера: Device_5597
+Оновлено запис ID: 8229 | Останнє оновлення: 2024-12-05 12:58:58.939683+02:00 | Критичні дані: {'infusion_rate_mL_h': 94.02}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.962177+02:00', 'device_id': 'Device_2026', 'ip_address': '114.245.8.206', 'mac_address': '6f:e4:63:18:80:77', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Andrea', 'last_name': 'Cooper', 'critical_data': {'steps_count': 10185, 'calories_burned_kcal': 464.25}}
+Дані передано до MQTT брокера: Device_2026
+Оновлено запис ID: 8230 | Останнє оновлення: 2024-12-05 12:58:58.962177+02:00 | Критичні дані: {'steps_count': 10185, 'calories_burned_kcal': 464.25}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:58.993129+02:00', 'device_id': 'Device_6577', 'ip_address': '156.82.123.91', 'mac_address': '26:9d:08:32:3f:c2', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'HealthPro Systems', 'first_name': 'Robert', 'last_name': 'Nunez', 'critical_data': {'oxygen_saturation_percent': 95.57, 'respiratory_rate_bpm': 19}}
+Дані передано до MQTT брокера: Device_6577
+Оновлено запис ID: 8231 | Останнє оновлення: 2024-12-05 12:58:58.993129+02:00 | Критичні дані: {'oxygen_saturation_percent': 95.57, 'respiratory_rate_bpm': 19}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:59.000656+02:00', 'device_id': 'Device_4718', 'ip_address': '20.147.24.39', 'mac_address': 'd5:9e:b3:59:7a:9c', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jeffrey', 'last_name': 'Ford', 'critical_data': {'steps_count': 7226, 'calories_burned_kcal': 1200.15}}
+Дані передано до MQTT брокера: Device_4718
+Оновлено запис ID: 8232 | Останнє оновлення: 2024-12-05 12:58:59.000656+02:00 | Критичні дані: {'steps_count': 7226, 'calories_burned_kcal': 1200.15}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:58:59.024554+02:00', 'device_id': 'Device_2046', 'ip_address': '164.56.190.114', 'mac_address': 'c2:45:d0:02:cd:3e', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Sandra', 'last_name': 'Andrews', 'critical_data': {'ecg_readings': [-0.1, 0.55, 0.8, 0.25, 0.77, -0.98, 0.47, 0.63, 0.33, 0.45]}}
+Дані передано до MQTT брокера: Device_2046
+Оновлено запис ID: 8233 | Останнє оновлення: 2024-12-05 12:58:59.024554+02:00 | Критичні дані: {'ecg_readings': [-0.1, 0.55, 0.8, 0.25, 0.77, -0.98, 0.47, 0.63, 0.33, 0.45]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.056414+02:00', 'device_id': 'Device_2614', 'ip_address': '156.219.83.45', 'mac_address': '28:5c:5e:e4:77:91', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Evan', 'last_name': 'Clark', 'critical_data': {'patient_weight_kg': 113, 'bed_angle_deg': 15.0}}
+Дані передано до MQTT брокера: Device_2614
+Оновлено запис ID: 8234 | Останнє оновлення: 2024-12-05 12:58:59.056414+02:00 | Критичні дані: {'patient_weight_kg': 113, 'bed_angle_deg': 15.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.068456+02:00', 'device_id': 'Device_8104', 'ip_address': '106.187.196.242', 'mac_address': 'a2:1c:e3:b1:20:d1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Melissa', 'last_name': 'Carson', 'critical_data': {'heart_rate': 83}}
+Дані передано до MQTT брокера: Device_8104
+Оновлено запис ID: 8235 | Останнє оновлення: 2024-12-05 12:58:59.068456+02:00 | Критичні дані: {'heart_rate': 83}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.087842+02:00', 'device_id': 'Device_9965', 'ip_address': '226.1.171.209', 'mac_address': 'be:bf:4b:72:84:01', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Gregory', 'last_name': 'George', 'critical_data': {'steps_count': 12703, 'calories_burned_kcal': 591.89}}
+Дані передано до MQTT брокера: Device_9965
+Оновлено запис ID: 8236 | Останнє оновлення: 2024-12-05 12:58:59.087842+02:00 | Критичні дані: {'steps_count': 12703, 'calories_burned_kcal': 591.89}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.118376+02:00', 'device_id': 'Device_4497', 'ip_address': '171.103.226.92', 'mac_address': 'b0:fe:94:bc:6e:4c', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Elizabeth', 'last_name': 'Morrow', 'critical_data': {'heart_rate': 172}}
+Дані передано до MQTT брокера: Device_4497
+Оновлено запис ID: 8237 | Останнє оновлення: 2024-12-05 12:58:59.118376+02:00 | Критичні дані: {'heart_rate': 172}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.148107+02:00', 'device_id': 'Device_6137', 'ip_address': '59.160.30.236', 'mac_address': 'bb:5e:88:3d:ff:c4', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'MedTech Inc.', 'first_name': 'Kyle', 'last_name': 'Ramos', 'critical_data': {'oxygen_saturation_percent': 82.69, 'respiratory_rate_bpm': 11}}
+Дані передано до MQTT брокера: Device_6137
+Оновлено запис ID: 8238 | Останнє оновлення: 2024-12-05 12:58:59.148107+02:00 | Критичні дані: {'oxygen_saturation_percent': 82.69, 'respiratory_rate_bpm': 11}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.178950+02:00', 'device_id': 'Device_6403', 'ip_address': '95.42.230.154', 'mac_address': '07:f9:36:08:60:47', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Tiffany', 'last_name': 'Smith', 'critical_data': {'steps_count': 9521, 'calories_burned_kcal': 1066.49}}
+Дані передано до MQTT брокера: Device_6403
+Оновлено запис ID: 8239 | Останнє оновлення: 2024-12-05 12:58:59.178950+02:00 | Критичні дані: {'steps_count': 9521, 'calories_burned_kcal': 1066.49}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.187952+02:00', 'device_id': 'Device_2669', 'ip_address': '208.90.40.171', 'mac_address': '4a:41:fe:75:29:96', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Heather', 'last_name': 'Murillo', 'critical_data': {'steps_count': 17975, 'calories_burned_kcal': 4892.98}}
+Дані передано до MQTT брокера: Device_2669
+Оновлено запис ID: 8240 | Останнє оновлення: 2024-12-05 12:58:59.187952+02:00 | Критичні дані: {'steps_count': 17975, 'calories_burned_kcal': 4892.98}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.210095+02:00', 'device_id': 'Device_1185', 'ip_address': '62.36.165.152', 'mac_address': '39:1e:33:22:d7:49', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'LifeFit Devices', 'first_name': 'Gina', 'last_name': 'Mclaughlin', 'critical_data': {'patient_weight_kg': 74, 'bed_angle_deg': 3.8}}
+Дані передано до MQTT брокера: Device_1185
+Оновлено запис ID: 8241 | Останнє оновлення: 2024-12-05 12:58:59.210095+02:00 | Критичні дані: {'patient_weight_kg': 74, 'bed_angle_deg': 3.8}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:58:59.240822+02:00', 'device_id': 'Device_6510', 'ip_address': '199.249.167.63', 'mac_address': 'b3:bc:df:bf:87:54', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Joshua', 'last_name': 'Lee', 'critical_data': {'patient_weight_kg': 70, 'bed_angle_deg': 27.1}}
+Дані передано до MQTT брокера: Device_6510
+Оновлено запис ID: 8242 | Останнє оновлення: 2024-12-05 12:58:59.240822+02:00 | Критичні дані: {'patient_weight_kg': 70, 'bed_angle_deg': 27.1}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:58:59.247849+02:00', 'device_id': 'Device_7551', 'ip_address': '243.100.114.167', 'mac_address': 'db:ab:72:0d:ce:54', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Kenneth', 'last_name': 'Torres', 'critical_data': {'infusion_rate_mL_h': 473.4}}
+Дані передано до MQTT брокера: Device_7551
+Оновлено запис ID: 8243 | Останнє оновлення: 2024-12-05 12:58:59.247849+02:00 | Критичні дані: {'infusion_rate_mL_h': 473.4}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:58:59.272021+02:00', 'device_id': 'Device_4226', 'ip_address': '151.177.63.149', 'mac_address': '70:7d:f7:8f:98:fb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Kelly', 'last_name': 'Huffman', 'critical_data': {'ecg_readings': [0.13, 0.64, -0.04, -0.39, -0.67, -0.24, -0.01, 0.61, -0.59, 0.25]}}
+Дані передано до MQTT брокера: Device_4226
+Оновлено запис ID: 8244 | Останнє оновлення: 2024-12-05 12:58:59.272021+02:00 | Критичні дані: {'ecg_readings': [0.13, 0.64, -0.04, -0.39, -0.67, -0.24, -0.01, 0.61, -0.59, 0.25]}
+Оновлено 47 записів у базі.
+===== Початок оновлення =====
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.051847+02:00', 'device_id': 'Device_2736', 'ip_address': '201.42.100.129', 'mac_address': '2e:57:ea:77:51:d6', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Victoria', 'last_name': 'Clark', 'critical_data': {'infusion_rate_mL_h': 452.39}}
+Дані передано до MQTT брокера: Device_2736
+Оновлено запис ID: 8195 | Останнє оновлення: 2024-12-05 12:59:00.051847+02:00 | Критичні дані: {'infusion_rate_mL_h': 452.39}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.062421+02:00', 'device_id': 'Device_3892', 'ip_address': '8.232.73.245', 'mac_address': '16:ca:04:8f:1a:7f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Brian', 'last_name': 'Mason', 'critical_data': {'infusion_rate_mL_h': 252.1}}
+Дані передано до MQTT брокера: Device_3892
+Оновлено запис ID: 8196 | Останнє оновлення: 2024-12-05 12:59:00.062421+02:00 | Критичні дані: {'infusion_rate_mL_h': 252.1}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.071472+02:00', 'device_id': 'Device_4177', 'ip_address': '200.110.39.45', 'mac_address': '37:0d:88:72:f8:f0', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Isaiah', 'last_name': 'Delgado', 'critical_data': {'infusion_rate_mL_h': 151.77}}
+Дані передано до MQTT брокера: Device_4177
+Оновлено запис ID: 8197 | Останнє оновлення: 2024-12-05 12:59:00.071472+02:00 | Критичні дані: {'infusion_rate_mL_h': 151.77}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.095176+02:00', 'device_id': 'Device_2875', 'ip_address': '2.128.116.143', 'mac_address': '91:5a:8e:1c:a1:bb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'William', 'last_name': 'Chambers', 'critical_data': {'ecg_readings': [0.9, -0.96, 0.41, -0.74, -0.14, -0.65, 0.29, -0.74, -0.34, -0.67]}}
+Дані передано до MQTT брокера: Device_2875
+Оновлено запис ID: 8198 | Останнє оновлення: 2024-12-05 12:59:00.095176+02:00 | Критичні дані: {'ecg_readings': [0.9, -0.96, 0.41, -0.74, -0.14, -0.65, 0.29, -0.74, -0.34, -0.67]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.125109+02:00', 'device_id': 'Device_4592', 'ip_address': '58.167.21.34', 'mac_address': '64:60:0a:9f:e1:f1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Kimberly', 'last_name': 'Watson', 'critical_data': {'heart_rate': 96}}
+Дані передано до MQTT брокера: Device_4592
+Оновлено запис ID: 8199 | Останнє оновлення: 2024-12-05 12:59:00.125109+02:00 | Критичні дані: {'heart_rate': 96}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.295374', 'last_updated': '2024-12-05T12:59:00.133112+02:00', 'device_id': 'Device_4625', 'ip_address': '47.244.222.94', 'mac_address': '51:51:23:bb:60:b8', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jessica', 'last_name': 'Gibson', 'critical_data': {'oxygen_saturation_percent': 98.01, 'respiratory_rate_bpm': 28}}
+Дані передано до MQTT брокера: Device_4625
+Оновлено запис ID: 8200 | Останнє оновлення: 2024-12-05 12:59:00.133112+02:00 | Критичні дані: {'oxygen_saturation_percent': 98.01, 'respiratory_rate_bpm': 28}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.141108+02:00', 'device_id': 'Device_4544', 'ip_address': '65.202.87.169', 'mac_address': 'c1:75:5e:01:83:c6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Susan', 'last_name': 'Kelley', 'critical_data': {'ecg_readings': [-0.17, -0.61, -0.43, 0.41, -0.15, -0.53, -0.71, 0.44, 0.61, 0.48]}}
+Дані передано до MQTT брокера: Device_4544
+Оновлено запис ID: 8201 | Останнє оновлення: 2024-12-05 12:59:00.141108+02:00 | Критичні дані: {'ecg_readings': [-0.17, -0.61, -0.43, 0.41, -0.15, -0.53, -0.71, 0.44, 0.61, 0.48]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.171857+02:00', 'device_id': 'Device_6937', 'ip_address': '94.172.201.156', 'mac_address': '49:91:89:44:21:b4', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Debra', 'last_name': 'Hester', 'critical_data': {'glucose_level_mg_dL': 137}}
+Дані передано до MQTT брокера: Device_6937
+Оновлено запис ID: 8202 | Останнє оновлення: 2024-12-05 12:59:00.171857+02:00 | Критичні дані: {'glucose_level_mg_dL': 137}
+Пристрій Device_7378 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.203081+02:00', 'device_id': 'Device_1768', 'ip_address': '143.166.65.153', 'mac_address': 'a9:60:35:ad:b8:e8', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'MedTech Inc.', 'first_name': 'Jeffrey', 'last_name': 'Kennedy', 'critical_data': {'infusion_rate_mL_h': 455.43}}
+Дані передано до MQTT брокера: Device_1768
+Оновлено запис ID: 8204 | Останнє оновлення: 2024-12-05 12:59:00.203081+02:00 | Критичні дані: {'infusion_rate_mL_h': 455.43}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.234125+02:00', 'device_id': 'Device_5135', 'ip_address': '106.3.190.105', 'mac_address': 'f4:5a:17:67:f4:a1', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Diana', 'last_name': 'Gay', 'critical_data': {'glucose_level_mg_dL': 163}}
+Дані передано до MQTT брокера: Device_5135
+Оновлено запис ID: 8205 | Останнє оновлення: 2024-12-05 12:59:00.234125+02:00 | Критичні дані: {'glucose_level_mg_dL': 163}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.263784+02:00', 'device_id': 'Device_8030', 'ip_address': '163.127.82.195', 'mac_address': 'd4:d5:63:48:5a:45', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Kristen', 'last_name': 'Roach', 'critical_data': {'ecg_readings': [0.44, 0.3, 0.49, 0.51, -0.64, 0.92, 0.35, -0.54, 0.62, 0.45]}}
+Дані передано до MQTT брокера: Device_8030
+Оновлено запис ID: 8206 | Останнє оновлення: 2024-12-05 12:59:00.263784+02:00 | Критичні дані: {'ecg_readings': [0.44, 0.3, 0.49, 0.51, -0.64, 0.92, 0.35, -0.54, 0.62, 0.45]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.295138+02:00', 'device_id': 'Device_1015', 'ip_address': '117.242.114.17', 'mac_address': '74:fc:31:9b:b5:71', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'HealthPro Systems', 'first_name': 'Mark', 'last_name': 'Travis', 'critical_data': {'glucose_level_mg_dL': 70}}
+Дані передано до MQTT брокера: Device_1015
+Оновлено запис ID: 8207 | Останнє оновлення: 2024-12-05 12:59:00.295138+02:00 | Критичні дані: {'glucose_level_mg_dL': 70}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.324908+02:00', 'device_id': 'Device_8373', 'ip_address': '81.131.79.228', 'mac_address': '42:16:41:11:23:1a', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Jason', 'last_name': 'Farmer', 'critical_data': {'ecg_readings': [-0.3, 0.14, 0.76, -0.93, -0.1, -0.75, 0.61, -0.74, 0.84, -0.83]}}
+Дані передано до MQTT брокера: Device_8373
+Оновлено запис ID: 8208 | Останнє оновлення: 2024-12-05 12:59:00.324908+02:00 | Критичні дані: {'ecg_readings': [-0.3, 0.14, 0.76, -0.93, -0.1, -0.75, 0.61, -0.74, 0.84, -0.83]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.332424+02:00', 'device_id': 'Device_5607', 'ip_address': '84.245.115.184', 'mac_address': '59:47:e5:7f:1f:b8', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Olivia', 'last_name': 'Stokes', 'critical_data': {'steps_count': 4181, 'calories_burned_kcal': 1297.05}}
+Дані передано до MQTT брокера: Device_5607
+Оновлено запис ID: 8209 | Останнє оновлення: 2024-12-05 12:59:00.332424+02:00 | Критичні дані: {'steps_count': 4181, 'calories_burned_kcal': 1297.05}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.356317+02:00', 'device_id': 'Device_4312', 'ip_address': '225.27.168.109', 'mac_address': 'e8:43:6b:2f:9b:e8', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Carolyn', 'last_name': 'Jensen', 'critical_data': {'blood_pressure': '125/70'}}
+Дані передано до MQTT брокера: Device_4312
+Оновлено запис ID: 8210 | Останнє оновлення: 2024-12-05 12:59:00.356317+02:00 | Критичні дані: {'blood_pressure': '125/70'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.296384', 'last_updated': '2024-12-05T12:59:00.387339+02:00', 'device_id': 'Device_5542', 'ip_address': '56.84.79.168', 'mac_address': '97:c4:32:a5:04:60', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Christopher', 'last_name': 'Colon', 'critical_data': {'patient_weight_kg': 165, 'bed_angle_deg': 31.9}}
+Дані передано до MQTT брокера: Device_5542
+Оновлено запис ID: 8211 | Останнє оновлення: 2024-12-05 12:59:00.387339+02:00 | Критичні дані: {'patient_weight_kg': 165, 'bed_angle_deg': 31.9}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.418935+02:00', 'device_id': 'Device_1453', 'ip_address': '42.187.18.230', 'mac_address': 'af:a5:6d:18:22:86', 'connection_status': 'Connected', 'device_type': 'Blood Pressure Monitor', 'manufacturer': 'LifeFit Devices', 'first_name': 'Sean', 'last_name': 'Fowler', 'critical_data': {'blood_pressure': '124/73'}}
+Дані передано до MQTT брокера: Device_1453
+Оновлено запис ID: 8212 | Останнє оновлення: 2024-12-05 12:59:00.418935+02:00 | Критичні дані: {'blood_pressure': '124/73'}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.449820+02:00', 'device_id': 'Device_4685', 'ip_address': '102.120.232.187', 'mac_address': '00:f0:b8:1c:4e:68', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Victoria', 'last_name': 'Pineda', 'critical_data': {'ecg_readings': [-0.34, -0.43, -0.57, -0.87, 0.23, 0.99, 0.13, -0.69, -0.08, -0.02]}}
+Дані передано до MQTT брокера: Device_4685
+Оновлено запис ID: 8213 | Останнє оновлення: 2024-12-05 12:59:00.449820+02:00 | Критичні дані: {'ecg_readings': [-0.34, -0.43, -0.57, -0.87, 0.23, 0.99, 0.13, -0.69, -0.08, -0.02]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.480492+02:00', 'device_id': 'Device_8058', 'ip_address': '180.220.239.236', 'mac_address': '84:ad:f0:69:c2:7f', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Richard', 'last_name': 'Berry', 'critical_data': {'patient_weight_kg': 70, 'bed_angle_deg': 30.1}}
+Дані передано до MQTT брокера: Device_8058
+Оновлено запис ID: 8214 | Останнє оновлення: 2024-12-05 12:59:00.480492+02:00 | Критичні дані: {'patient_weight_kg': 70, 'bed_angle_deg': 30.1}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.511176+02:00', 'device_id': 'Device_4342', 'ip_address': '50.131.217.28', 'mac_address': 'e6:df:32:a9:c8:78', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Daniel', 'last_name': 'Bishop', 'critical_data': {'steps_count': 10355, 'calories_burned_kcal': 4643.96}}
+Дані передано до MQTT брокера: Device_4342
+Оновлено запис ID: 8215 | Останнє оновлення: 2024-12-05 12:59:00.511176+02:00 | Критичні дані: {'steps_count': 10355, 'calories_burned_kcal': 4643.96}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.541875+02:00', 'device_id': 'Device_9835', 'ip_address': '4.217.30.177', 'mac_address': 'ef:e0:09:a5:27:a6', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Kathleen', 'last_name': 'Roberts', 'critical_data': {'glucose_level_mg_dL': 184}}
+Дані передано до MQTT брокера: Device_9835
+Оновлено запис ID: 8216 | Останнє оновлення: 2024-12-05 12:59:00.541875+02:00 | Критичні дані: {'glucose_level_mg_dL': 184}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.573992+02:00', 'device_id': 'Device_9951', 'ip_address': '246.52.112.53', 'mac_address': '6b:1f:a0:a4:f0:aa', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'MedTech Inc.', 'first_name': 'Donald', 'last_name': 'Graves', 'critical_data': {'glucose_level_mg_dL': 170}}
+Дані передано до MQTT брокера: Device_9951
+Оновлено запис ID: 8217 | Останнє оновлення: 2024-12-05 12:59:00.573992+02:00 | Критичні дані: {'glucose_level_mg_dL': 170}
+Пристрій Device_9749 відключений. Критичні дані очищено.
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.604382+02:00', 'device_id': 'Device_2829', 'ip_address': '222.21.45.32', 'mac_address': '8f:0c:a1:65:60:38', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Martha', 'last_name': 'Dickson', 'critical_data': {'glucose_level_mg_dL': 143}}
+Дані передано до MQTT брокера: Device_2829
+Оновлено запис ID: 8219 | Останнє оновлення: 2024-12-05 12:59:00.604382+02:00 | Критичні дані: {'glucose_level_mg_dL': 143}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.634102+02:00', 'device_id': 'Device_3483', 'ip_address': '64.236.69.2', 'mac_address': '65:7b:3e:15:83:a9', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'MedTech Inc.', 'first_name': 'Brandon', 'last_name': 'Porter', 'critical_data': {'patient_weight_kg': 70, 'bed_angle_deg': 11.1}}
+Дані передано до MQTT брокера: Device_3483
+Оновлено запис ID: 8220 | Останнє оновлення: 2024-12-05 12:59:00.634102+02:00 | Критичні дані: {'patient_weight_kg': 70, 'bed_angle_deg': 11.1}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.665123+02:00', 'device_id': 'Device_8014', 'ip_address': '239.244.89.141', 'mac_address': 'ef:72:90:57:5c:79', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Tim', 'last_name': 'Key', 'critical_data': {'steps_count': 1426, 'calories_burned_kcal': 4255.05}}
+Дані передано до MQTT брокера: Device_8014
+Оновлено запис ID: 8221 | Останнє оновлення: 2024-12-05 12:59:00.665123+02:00 | Критичні дані: {'steps_count': 1426, 'calories_burned_kcal': 4255.05}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.297383', 'last_updated': '2024-12-05T12:59:00.696496+02:00', 'device_id': 'Device_8267', 'ip_address': '61.73.59.40', 'mac_address': '02:98:38:52:80:d6', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Larry', 'last_name': 'Brown', 'critical_data': {'ecg_readings': [-0.96, -0.66, -0.1, -0.25, 0.06, 0.9, -0.8, -0.47, 0.58, 0.18]}}
+Дані передано до MQTT брокера: Device_8267
+Оновлено запис ID: 8222 | Останнє оновлення: 2024-12-05 12:59:00.696496+02:00 | Критичні дані: {'ecg_readings': [-0.96, -0.66, -0.1, -0.25, 0.06, 0.9, -0.8, -0.47, 0.58, 0.18]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.726179+02:00', 'device_id': 'Device_7070', 'ip_address': '211.82.242.210', 'mac_address': '47:8d:8f:e7:be:5f', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'HealthPro Systems', 'first_name': 'Geoffrey', 'last_name': 'Terrell', 'critical_data': {'infusion_rate_mL_h': 118.81}}
+Дані передано до MQTT брокера: Device_7070
+Оновлено запис ID: 8223 | Останнє оновлення: 2024-12-05 12:59:00.726179+02:00 | Критичні дані: {'infusion_rate_mL_h': 118.81}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.760178+02:00', 'device_id': 'Device_1619', 'ip_address': '70.56.245.116', 'mac_address': '21:4a:e7:bb:9c:3f', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Amber', 'last_name': 'Wright', 'critical_data': {'heart_rate': 172}}
+Дані передано до MQTT брокера: Device_1619
+Оновлено запис ID: 8224 | Останнє оновлення: 2024-12-05 12:59:00.760178+02:00 | Критичні дані: {'heart_rate': 172}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.792293+02:00', 'device_id': 'Device_1477', 'ip_address': '57.250.210.5', 'mac_address': '6a:00:32:7f:93:08', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'Jessica', 'last_name': 'Rodriguez', 'critical_data': {'infusion_rate_mL_h': 172.74}}
+Дані передано до MQTT брокера: Device_1477
+Оновлено запис ID: 8225 | Останнє оновлення: 2024-12-05 12:59:00.792293+02:00 | Критичні дані: {'infusion_rate_mL_h': 172.74}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.800684+02:00', 'device_id': 'Device_1220', 'ip_address': '14.195.53.153', 'mac_address': '0b:2c:b7:0e:16:73', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Nicole', 'last_name': 'Smith', 'critical_data': {'patient_weight_kg': 81, 'bed_angle_deg': 37.0}}
+Дані передано до MQTT брокера: Device_1220
+Оновлено запис ID: 8226 | Останнє оновлення: 2024-12-05 12:59:00.800684+02:00 | Критичні дані: {'patient_weight_kg': 81, 'bed_angle_deg': 37.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.823132+02:00', 'device_id': 'Device_1906', 'ip_address': '24.99.190.7', 'mac_address': 'f0:b1:da:bd:08:09', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Eugene', 'last_name': 'Malone', 'critical_data': {'glucose_level_mg_dL': 72}}
+Дані передано до MQTT брокера: Device_1906
+Оновлено запис ID: 8227 | Останнє оновлення: 2024-12-05 12:59:00.823132+02:00 | Критичні дані: {'glucose_level_mg_dL': 72}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.851929+02:00', 'device_id': 'Device_1449', 'ip_address': '208.241.65.189', 'mac_address': 'be:48:4f:c5:42:ff', 'connection_status': 'Connected', 'device_type': 'Glucose Meter', 'manufacturer': 'LifeFit Devices', 'first_name': 'Kevin', 'last_name': 'Jefferson', 'critical_data': {'glucose_level_mg_dL': 150}}
+Дані передано до MQTT брокера: Device_1449
+Оновлено запис ID: 8228 | Останнє оновлення: 2024-12-05 12:59:00.851929+02:00 | Критичні дані: {'glucose_level_mg_dL': 150}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.859927+02:00', 'device_id': 'Device_5597', 'ip_address': '233.174.40.22', 'mac_address': 'eb:ed:5f:24:85:44', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Henry', 'last_name': 'Elliott', 'critical_data': {'infusion_rate_mL_h': 408.75}}
+Дані передано до MQTT брокера: Device_5597
+Оновлено запис ID: 8229 | Останнє оновлення: 2024-12-05 12:59:00.859927+02:00 | Критичні дані: {'infusion_rate_mL_h': 408.75}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.867548+02:00', 'device_id': 'Device_2026', 'ip_address': '114.245.8.206', 'mac_address': '6f:e4:63:18:80:77', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'James', 'last_name': 'Ruiz', 'critical_data': {'steps_count': 18489, 'calories_burned_kcal': 1640.14}}
+Дані передано до MQTT брокера: Device_2026
+Оновлено запис ID: 8230 | Останнє оновлення: 2024-12-05 12:59:00.867548+02:00 | Критичні дані: {'steps_count': 18489, 'calories_burned_kcal': 1640.14}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.900620+02:00', 'device_id': 'Device_6577', 'ip_address': '156.82.123.91', 'mac_address': '26:9d:08:32:3f:c2', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'HealthPro Systems', 'first_name': 'Elizabeth', 'last_name': 'Snow', 'critical_data': {'oxygen_saturation_percent': 95.23, 'respiratory_rate_bpm': 27}}
+Дані передано до MQTT брокера: Device_6577
+Оновлено запис ID: 8231 | Останнє оновлення: 2024-12-05 12:59:00.900620+02:00 | Критичні дані: {'oxygen_saturation_percent': 95.23, 'respiratory_rate_bpm': 27}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.912128+02:00', 'device_id': 'Device_4718', 'ip_address': '20.147.24.39', 'mac_address': 'd5:9e:b3:59:7a:9c', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'HealthPro Systems', 'first_name': 'Brittany', 'last_name': 'Spencer', 'critical_data': {'steps_count': 11880, 'calories_burned_kcal': 1870.67}}
+Дані передано до MQTT брокера: Device_4718
+Оновлено запис ID: 8232 | Останнє оновлення: 2024-12-05 12:59:00.912128+02:00 | Критичні дані: {'steps_count': 11880, 'calories_burned_kcal': 1870.67}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.298382', 'last_updated': '2024-12-05T12:59:00.919171+02:00', 'device_id': 'Device_2046', 'ip_address': '164.56.190.114', 'mac_address': 'c2:45:d0:02:cd:3e', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Steve', 'last_name': 'Shepherd', 'critical_data': {'ecg_readings': [0.4, -0.31, 0.72, 0.65, -0.53, 0.11, -0.18, 0.87, -0.58, 0.52]}}
+Дані передано до MQTT брокера: Device_2046
+Оновлено запис ID: 8233 | Останнє оновлення: 2024-12-05 12:59:00.919171+02:00 | Критичні дані: {'ecg_readings': [0.4, -0.31, 0.72, 0.65, -0.53, 0.11, -0.18, 0.87, -0.58, 0.52]}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:00.945927+02:00', 'device_id': 'Device_2614', 'ip_address': '156.219.83.45', 'mac_address': '28:5c:5e:e4:77:91', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Joe', 'last_name': 'Wallace', 'critical_data': {'patient_weight_kg': 195, 'bed_angle_deg': 42.0}}
+Дані передано до MQTT брокера: Device_2614
+Оновлено запис ID: 8234 | Останнє оновлення: 2024-12-05 12:59:00.945927+02:00 | Критичні дані: {'patient_weight_kg': 195, 'bed_angle_deg': 42.0}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:00.977089+02:00', 'device_id': 'Device_8104', 'ip_address': '106.187.196.242', 'mac_address': 'a2:1c:e3:b1:20:d1', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'HealthPro Systems', 'first_name': 'Tracey', 'last_name': 'King', 'critical_data': {'heart_rate': 105}}
+Дані передано до MQTT брокера: Device_8104
+Оновлено запис ID: 8235 | Останнє оновлення: 2024-12-05 12:59:00.977089+02:00 | Критичні дані: {'heart_rate': 105}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.008193+02:00', 'device_id': 'Device_9965', 'ip_address': '226.1.171.209', 'mac_address': 'be:bf:4b:72:84:01', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Walter', 'last_name': 'Mccann', 'critical_data': {'steps_count': 9107, 'calories_burned_kcal': 4872.19}}
+Дані передано до MQTT брокера: Device_9965
+Оновлено запис ID: 8236 | Останнє оновлення: 2024-12-05 12:59:01.008193+02:00 | Критичні дані: {'steps_count': 9107, 'calories_burned_kcal': 4872.19}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.038841+02:00', 'device_id': 'Device_4497', 'ip_address': '171.103.226.92', 'mac_address': 'b0:fe:94:bc:6e:4c', 'connection_status': 'Connected', 'device_type': 'Heart Rate Monitor', 'manufacturer': 'BioMonitor Co.', 'first_name': 'Amy', 'last_name': 'Holt', 'critical_data': {'heart_rate': 116}}
+Дані передано до MQTT брокера: Device_4497
+Оновлено запис ID: 8237 | Останнє оновлення: 2024-12-05 12:59:01.038841+02:00 | Критичні дані: {'heart_rate': 116}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.070789+02:00', 'device_id': 'Device_6137', 'ip_address': '59.160.30.236', 'mac_address': 'bb:5e:88:3d:ff:c4', 'connection_status': 'Connected', 'device_type': 'Ventilator', 'manufacturer': 'MedTech Inc.', 'first_name': 'Angela', 'last_name': 'Mckinney', 'critical_data': {'oxygen_saturation_percent': 97.84, 'respiratory_rate_bpm': 30}}
+Дані передано до MQTT брокера: Device_6137
+Оновлено запис ID: 8238 | Останнє оновлення: 2024-12-05 12:59:01.070789+02:00 | Критичні дані: {'oxygen_saturation_percent': 97.84, 'respiratory_rate_bpm': 30}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.100988+02:00', 'device_id': 'Device_6403', 'ip_address': '95.42.230.154', 'mac_address': '07:f9:36:08:60:47', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'LifeFit Devices', 'first_name': 'Elizabeth', 'last_name': 'Bennett', 'critical_data': {'steps_count': 5099, 'calories_burned_kcal': 4790.09}}
+Дані передано до MQTT брокера: Device_6403
+Оновлено запис ID: 8239 | Останнє оновлення: 2024-12-05 12:59:01.100988+02:00 | Критичні дані: {'steps_count': 5099, 'calories_burned_kcal': 4790.09}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.132411+02:00', 'device_id': 'Device_2669', 'ip_address': '208.90.40.171', 'mac_address': '4a:41:fe:75:29:96', 'connection_status': 'Connected', 'device_type': 'Wearable Fitness Tracker', 'manufacturer': 'CareTrack Solutions', 'first_name': 'Jessica', 'last_name': 'Davis', 'critical_data': {'steps_count': 2873, 'calories_burned_kcal': 1333.41}}
+Дані передано до MQTT брокера: Device_2669
+Оновлено запис ID: 8240 | Останнє оновлення: 2024-12-05 12:59:01.132411+02:00 | Критичні дані: {'steps_count': 2873, 'calories_burned_kcal': 1333.41}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.162848+02:00', 'device_id': 'Device_1185', 'ip_address': '62.36.165.152', 'mac_address': '39:1e:33:22:d7:49', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'LifeFit Devices', 'first_name': 'Rhonda', 'last_name': 'Tran', 'critical_data': {'patient_weight_kg': 189, 'bed_angle_deg': 3.6}}
+Дані передано до MQTT брокера: Device_1185
+Оновлено запис ID: 8241 | Останнє оновлення: 2024-12-05 12:59:01.162848+02:00 | Критичні дані: {'patient_weight_kg': 189, 'bed_angle_deg': 3.6}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.299382', 'last_updated': '2024-12-05T12:59:01.195169+02:00', 'device_id': 'Device_6510', 'ip_address': '199.249.167.63', 'mac_address': 'b3:bc:df:bf:87:54', 'connection_status': 'Connected', 'device_type': 'Smart Bed', 'manufacturer': 'HealthPro Systems', 'first_name': 'Michael', 'last_name': 'Craig', 'critical_data': {'patient_weight_kg': 126, 'bed_angle_deg': 11.7}}
+Дані передано до MQTT брокера: Device_6510
+Оновлено запис ID: 8242 | Останнє оновлення: 2024-12-05 12:59:01.195169+02:00 | Критичні дані: {'patient_weight_kg': 126, 'bed_angle_deg': 11.7}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:59:01.204951+02:00', 'device_id': 'Device_7551', 'ip_address': '243.100.114.167', 'mac_address': 'db:ab:72:0d:ce:54', 'connection_status': 'Connected', 'device_type': 'Infusion Pump', 'manufacturer': 'LifeFit Devices', 'first_name': 'James', 'last_name': 'Lopez', 'critical_data': {'infusion_rate_mL_h': 72.97}}
+Дані передано до MQTT брокера: Device_7551
+Оновлено запис ID: 8243 | Останнє оновлення: 2024-12-05 12:59:01.204951+02:00 | Критичні дані: {'infusion_rate_mL_h': 72.97}
+Перед публікацією в MQTT: {'timestamp': '2024-12-05T12:10:34.300385', 'last_updated': '2024-12-05T12:59:01.212462+02:00', 'device_id': 'Device_4226', 'ip_address': '151.177.63.149', 'mac_address': '70:7d:f7:8f:98:fb', 'connection_status': 'Connected', 'device_type': 'ECG Monitor', 'manufacturer': 'MedTech Inc.', 'first_name': 'Elizabeth', 'last_name': 'Garcia', 'critical_data': {'ecg_readings': [-0.71, 0.84, 0.27, 0.4, -0.37, 0.79, -0.09, 0.08, 0.65, 0.61]}}
+Дані передано до MQTT брокера: Device_4226
+Оновлено запис ID: 8244 | Останнє оновлення: 2024-12-05 12:59:01.212462+02:00 | Критичні дані: {'ecg_readings': [-0.71, 0.84, 0.27, 0.4, -0.37, 0.79, -0.09, 0.08, 0.65, 0.61]}
+Оновлено 48 записів у базі.
