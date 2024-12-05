@@ -106,7 +106,7 @@ def publish_to_mqtt(payload):
 @app.task
 def update_iot_data():
     """
-    Оновлює випадкові дані IoT у базі кожні 5 хвилин і публікує їх у MQTT брокер.
+    Оновлює випадкові дані IoT у базі кожні 5 хвилин та публікує їх до MQTT брокера.
     """
     DATABASE_URL = os.getenv("DATABASE_URL")
     engine = create_engine(DATABASE_URL)
@@ -116,17 +116,18 @@ def update_iot_data():
     kyiv_time = timezone("Europe/Kyiv")
 
     try:
-        write_log("===== Starting Update Task =====")
+        write_log("===== Початок оновлення =====")
         records = session.query(IoTData).all()
         updated_count = 0
 
         for record in records:
-            # Оновлюємо статус підключення
+            # Оновлення статусу підключення
             record.connection_status = "Connected" if random.random() < 0.9 else "Disconnected"
 
             if record.connection_status == "Disconnected":
-                # Якщо пристрій не підключений, очищуємо критичні дані
+                # Якщо пристрій відключений, очищуємо критичні дані
                 record.critical_data = encrypt_data({})
+                record.last_updated = datetime.now(kyiv_time)
                 write_log(f"Пристрій {record.device_id} відключений. Критичні дані очищено.")
                 continue
 
@@ -158,13 +159,11 @@ def update_iot_data():
                 critical_data["steps_count"] = random.randint(0, 20000)
                 critical_data["calories_burned_kcal"] = round(random.uniform(0.0, 5000.0), 2)
 
-            # Шифруємо критичні дані
+            # Шифруємо та оновлюємо критичні дані
             record.critical_data = encrypt_data(critical_data)
-
-            # Оновлюємо поле `last_updated`
             record.last_updated = datetime.now(kyiv_time)
 
-            # Підготовка даних для публікації
+            # Підготовка даних для публікації до MQTT
             payload = {
                 "timestamp": record.timestamp.isoformat(),
                 "last_updated": record.last_updated.isoformat(),
@@ -179,14 +178,14 @@ def update_iot_data():
                 "critical_data": critical_data,
             }
 
-            # Публікуємо в MQTT брокер
+            # Публікація до MQTT брокера
             publish_to_mqtt(payload)
 
-
             log_message = (
-                f"Updated Record ID: {record.id} | Last Updated: {record.last_updated} | Critical Data: {critical_data}"
+                f"Оновлено запис ID: {record.id} | Останнє оновлення: {record.last_updated} | Критичні дані: {critical_data}"
             )
             write_log(log_message)
+            updated_count += 1
 
         session.commit()
         write_log(f"Оновлено {updated_count} записів у базі.")
@@ -195,6 +194,7 @@ def update_iot_data():
         write_log(f"Помилка під час оновлення: {e}")
     finally:
         session.close()
+
 
 
 

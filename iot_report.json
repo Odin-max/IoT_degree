@@ -1,826 +1,842 @@
 {
     "iot_report": [
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "John",
-            "last_name": "Scott",
-            "device_id": "Device_5394",
-            "device_type": "Ventilator",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "186.87.93.148",
-            "mac_address": "ff:f1:fb:cd:da:4b",
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Courtney",
+            "last_name": "Price",
+            "device_id": "Device_2736",
+            "device_type": "Infusion Pump",
+            "manufacturer": "BioMonitor Co.",
+            "ip_address": "201.42.100.129",
+            "mac_address": "2e:57:ea:77:51:d6",
             "connection_status": "Connected",
             "critical_data": {
-                "oxygen_saturation_percent": 98.38,
-                "respiratory_rate_bpm": 28
+                "infusion_rate_mL_h": 145.2
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Angelica",
-            "last_name": "Cannon",
-            "device_id": "Device_9814",
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Gabriel",
+            "last_name": "Mullen",
+            "device_id": "Device_3892",
+            "device_type": "Infusion Pump",
+            "manufacturer": "BioMonitor Co.",
+            "ip_address": "8.232.73.245",
+            "mac_address": "16:ca:04:8f:1a:7f",
+            "connection_status": "Connected",
+            "critical_data": {
+                "infusion_rate_mL_h": 207.6
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Kevin",
+            "last_name": "Lin",
+            "device_id": "Device_4177",
+            "device_type": "Infusion Pump",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "200.110.39.45",
+            "mac_address": "37:0d:88:72:f8:f0",
+            "connection_status": "Connected",
+            "critical_data": {
+                "infusion_rate_mL_h": 382.36
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Justin",
+            "last_name": "Raymond",
+            "device_id": "Device_2875",
+            "device_type": "ECG Monitor",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "2.128.116.143",
+            "mac_address": "91:5a:8e:1c:a1:bb",
+            "connection_status": "Connected",
+            "critical_data": {
+                "ecg_readings": [
+                    -0.91,
+                    -0.37,
+                    0.66,
+                    0.4,
+                    0.39,
+                    -0.96,
+                    0.11,
+                    0.83,
+                    -0.07,
+                    0.33
+                ]
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Patrick",
+            "last_name": "Hall",
+            "device_id": "Device_4592",
+            "device_type": "Heart Rate Monitor",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "58.167.21.34",
+            "mac_address": "64:60:0a:9f:e1:f1",
+            "connection_status": "Connected",
+            "critical_data": {
+                "heart_rate": 132
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.295374",
+            "last_updated": "2024-12-05T12:10:34.295374",
+            "first_name": "Jared",
+            "last_name": "Fleming",
+            "device_id": "Device_4625",
+            "device_type": "Ventilator",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "47.244.222.94",
+            "mac_address": "51:51:23:bb:60:b8",
+            "connection_status": "Connected",
+            "critical_data": {
+                "oxygen_saturation_percent": 92.77,
+                "respiratory_rate_bpm": 19
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Ryan",
+            "last_name": "Moreno",
+            "device_id": "Device_4544",
+            "device_type": "ECG Monitor",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "65.202.87.169",
+            "mac_address": "c1:75:5e:01:83:c6",
+            "connection_status": "Connected",
+            "critical_data": {
+                "ecg_readings": [
+                    0.26,
+                    0.35,
+                    0.91,
+                    -0.79,
+                    0.78,
+                    -0.52,
+                    -0.83,
+                    0.27,
+                    -0.35,
+                    -0.74
+                ]
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Sylvia",
+            "last_name": "Johnson",
+            "device_id": "Device_6937",
             "device_type": "Glucose Meter",
             "manufacturer": "MedTech Inc.",
-            "ip_address": "47.236.173.151",
-            "mac_address": "3b:9d:73:fc:e4:fc",
+            "ip_address": "94.172.201.156",
+            "mac_address": "49:91:89:44:21:b4",
             "connection_status": "Connected",
             "critical_data": {
-                "glucose_level_mg_dL": 167
+                "glucose_level_mg_dL": 93
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "James",
-            "last_name": "Soto",
-            "device_id": "Device_4110",
-            "device_type": "Smart Bed",
-            "manufacturer": "HealthPro Systems",
-            "ip_address": "155.176.217.126",
-            "mac_address": "a9:57:48:f4:cb:0c",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 138,
-                "bed_angle_deg": 33.3
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Christine",
-            "last_name": "Stewart",
-            "device_id": "Device_6217",
-            "device_type": "Infusion Pump",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "245.49.56.129",
-            "mac_address": "69:89:b9:a8:52:2c",
-            "connection_status": "Connected",
-            "critical_data": {
-                "infusion_rate_mL_h": 319.07
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Lisa",
-            "last_name": "Wilson",
-            "device_id": "Device_9194",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Dana",
+            "last_name": "Barnett",
+            "device_id": "Device_7378",
             "device_type": "Ventilator",
             "manufacturer": "BioMonitor Co.",
-            "ip_address": "223.220.188.229",
-            "mac_address": "04:97:28:cb:07:65",
+            "ip_address": "236.51.15.201",
+            "mac_address": "a9:d9:72:5e:56:32",
             "connection_status": "Connected",
             "critical_data": {
-                "oxygen_saturation_percent": 83.2,
-                "respiratory_rate_bpm": 25
+                "oxygen_saturation_percent": 88.65,
+                "respiratory_rate_bpm": 21
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Kenneth",
-            "last_name": "Hansen",
-            "device_id": "Device_6170",
-            "device_type": "Wearable Fitness Tracker",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "64.215.243.52",
-            "mac_address": "bb:df:55:a7:2f:db",
-            "connection_status": "Connected",
-            "critical_data": {
-                "steps_count": 6582,
-                "calories_burned_kcal": 1769.43
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Alexander",
-            "last_name": "Arias",
-            "device_id": "Device_5070",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Adrian",
+            "last_name": "Oliver",
+            "device_id": "Device_1768",
             "device_type": "Infusion Pump",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "234.129.33.80",
-            "mac_address": "fb:88:a4:05:72:8a",
+            "manufacturer": "MedTech Inc.",
+            "ip_address": "143.166.65.153",
+            "mac_address": "a9:60:35:ad:b8:e8",
             "connection_status": "Connected",
             "critical_data": {
-                "infusion_rate_mL_h": 335.61
+                "infusion_rate_mL_h": 217.43
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "John",
-            "last_name": "Moses",
-            "device_id": "Device_7933",
-            "device_type": "Blood Pressure Monitor",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Kimberly",
+            "last_name": "Pennington",
+            "device_id": "Device_5135",
+            "device_type": "Glucose Meter",
             "manufacturer": "HealthPro Systems",
-            "ip_address": "129.163.17.145",
-            "mac_address": "44:90:ee:62:5b:4f",
+            "ip_address": "106.3.190.105",
+            "mac_address": "f4:5a:17:67:f4:a1",
             "connection_status": "Connected",
             "critical_data": {
-                "blood_pressure": "160/79"
+                "glucose_level_mg_dL": 106
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.972895",
-            "last_updated": "2024-12-04T23:00:13.972895",
-            "first_name": "Kristen",
-            "last_name": "Drake",
-            "device_id": "Device_2589",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "162.178.7.42",
-            "mac_address": "ff:52:53:18:c8:49",
-            "connection_status": "Connected",
-            "critical_data": {
-                "heart_rate": 85
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Jonathan",
-            "last_name": "Harris",
-            "device_id": "Device_7943",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "218.52.17.218",
-            "mac_address": "39:2a:4b:27:0b:a4",
-            "connection_status": "Connected",
-            "critical_data": {
-                "heart_rate": 67
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Scott",
-            "last_name": "Stanley",
-            "device_id": "Device_8496",
-            "device_type": "Wearable Fitness Tracker",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "231.134.29.210",
-            "mac_address": "31:3c:3c:17:b4:81",
-            "connection_status": "Connected",
-            "critical_data": {
-                "steps_count": 9417,
-                "calories_burned_kcal": 2834.28
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Judy",
-            "last_name": "Aguilar",
-            "device_id": "Device_8269",
-            "device_type": "Wearable Fitness Tracker",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "145.69.72.78",
-            "mac_address": "97:1c:5e:a1:fa:aa",
-            "connection_status": "Connected",
-            "critical_data": {
-                "steps_count": 745,
-                "calories_burned_kcal": 4280.64
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Jerry",
-            "last_name": "Howe",
-            "device_id": "Device_1100",
-            "device_type": "Blood Pressure Monitor",
-            "manufacturer": "HealthPro Systems",
-            "ip_address": "209.57.116.34",
-            "mac_address": "5a:dd:3f:24:df:b8",
-            "connection_status": "Connected",
-            "critical_data": {
-                "blood_pressure": "122/72"
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Jessica",
-            "last_name": "Morales",
-            "device_id": "Device_9023",
-            "device_type": "Smart Bed",
-            "manufacturer": "HealthPro Systems",
-            "ip_address": "47.126.80.153",
-            "mac_address": "0c:6b:07:27:fc:52",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 44,
-                "bed_angle_deg": 27.5
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Omar",
-            "last_name": "Clark",
-            "device_id": "Device_4389",
-            "device_type": "Ventilator",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "222.165.10.34",
-            "mac_address": "35:6d:80:26:d7:d3",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 83.94,
-                "respiratory_rate_bpm": 14
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Julie",
-            "last_name": "Allen",
-            "device_id": "Device_7014",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Nicholas",
+            "last_name": "Perkins",
+            "device_id": "Device_8030",
             "device_type": "ECG Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "31.209.186.114",
-            "mac_address": "61:d4:b2:43:1e:11",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "163.127.82.195",
+            "mac_address": "d4:d5:63:48:5a:45",
             "connection_status": "Connected",
             "critical_data": {
                 "ecg_readings": [
+                    0.06,
+                    0.69,
+                    -0.54,
+                    0.09,
+                    -0.53,
+                    0.04,
+                    0.93,
+                    -0.12,
+                    -0.56,
+                    1.0
+                ]
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Robert",
+            "last_name": "Thomas",
+            "device_id": "Device_1015",
+            "device_type": "Glucose Meter",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "117.242.114.17",
+            "mac_address": "74:fc:31:9b:b5:71",
+            "connection_status": "Connected",
+            "critical_data": {
+                "glucose_level_mg_dL": 165
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Carolyn",
+            "last_name": "Davis",
+            "device_id": "Device_8373",
+            "device_type": "ECG Monitor",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "81.131.79.228",
+            "mac_address": "42:16:41:11:23:1a",
+            "connection_status": "Connected",
+            "critical_data": {
+                "ecg_readings": [
+                    0.07,
+                    0.47,
+                    0.78,
+                    0.96,
+                    0.45,
+                    -0.73,
+                    -0.73,
                     0.14,
-                    0.41,
-                    -0.58,
-                    0.06,
-                    0.74,
-                    0.52,
-                    0.21,
-                    -0.58,
-                    -0.28,
-                    -0.02
+                    -0.4,
+                    0.79
                 ]
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Rebecca",
-            "last_name": "Raymond",
-            "device_id": "Device_2934",
-            "device_type": "Blood Pressure Monitor",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Megan",
+            "last_name": "Gonzalez",
+            "device_id": "Device_5607",
+            "device_type": "Wearable Fitness Tracker",
             "manufacturer": "HealthPro Systems",
-            "ip_address": "125.251.206.147",
-            "mac_address": "a7:55:d2:86:e9:90",
+            "ip_address": "84.245.115.184",
+            "mac_address": "59:47:e5:7f:1f:b8",
             "connection_status": "Connected",
             "critical_data": {
-                "blood_pressure": "177/104"
+                "steps_count": 10903,
+                "calories_burned_kcal": 2019.23
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
             "first_name": "Michael",
-            "last_name": "Ruiz",
-            "device_id": "Device_4004",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "106.157.155.14",
-            "mac_address": "15:08:d9:ae:6b:eb",
+            "last_name": "Cook",
+            "device_id": "Device_4312",
+            "device_type": "Blood Pressure Monitor",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "225.27.168.109",
+            "mac_address": "e8:43:6b:2f:9b:e8",
             "connection_status": "Connected",
             "critical_data": {
-                "heart_rate": 91
+                "blood_pressure": "100/71"
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Phillip",
-            "last_name": "Houston",
-            "device_id": "Device_1844",
+            "timestamp": "2024-12-05T12:10:34.296384",
+            "last_updated": "2024-12-05T12:10:34.296384",
+            "first_name": "Thomas",
+            "last_name": "Decker",
+            "device_id": "Device_5542",
+            "device_type": "Smart Bed",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "56.84.79.168",
+            "mac_address": "97:c4:32:a5:04:60",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 163,
+                "bed_angle_deg": 22.1
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "James",
+            "last_name": "Thompson",
+            "device_id": "Device_1453",
+            "device_type": "Blood Pressure Monitor",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "42.187.18.230",
+            "mac_address": "af:a5:6d:18:22:86",
+            "connection_status": "Connected",
+            "critical_data": {
+                "blood_pressure": "147/118"
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Nicholas",
+            "last_name": "Johnson",
+            "device_id": "Device_4685",
+            "device_type": "ECG Monitor",
+            "manufacturer": "BioMonitor Co.",
+            "ip_address": "102.120.232.187",
+            "mac_address": "00:f0:b8:1c:4e:68",
+            "connection_status": "Connected",
+            "critical_data": {
+                "ecg_readings": [
+                    -0.9,
+                    0.19,
+                    0.32,
+                    0.79,
+                    -0.7,
+                    -0.83,
+                    -0.45,
+                    0.29,
+                    -0.15,
+                    0.37
+                ]
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Jeremy",
+            "last_name": "Mcdonald",
+            "device_id": "Device_8058",
+            "device_type": "Smart Bed",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "180.220.239.236",
+            "mac_address": "84:ad:f0:69:c2:7f",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 111,
+                "bed_angle_deg": 31.3
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Sheri",
+            "last_name": "Jones",
+            "device_id": "Device_4342",
+            "device_type": "Wearable Fitness Tracker",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "50.131.217.28",
+            "mac_address": "e6:df:32:a9:c8:78",
+            "connection_status": "Connected",
+            "critical_data": {
+                "steps_count": 8371,
+                "calories_burned_kcal": 629.79
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "John",
+            "last_name": "Reyes",
+            "device_id": "Device_9835",
+            "device_type": "Glucose Meter",
+            "manufacturer": "MedTech Inc.",
+            "ip_address": "4.217.30.177",
+            "mac_address": "ef:e0:09:a5:27:a6",
+            "connection_status": "Connected",
+            "critical_data": {
+                "glucose_level_mg_dL": 181
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Jill",
+            "last_name": "Dixon",
+            "device_id": "Device_9951",
+            "device_type": "Glucose Meter",
+            "manufacturer": "MedTech Inc.",
+            "ip_address": "246.52.112.53",
+            "mac_address": "6b:1f:a0:a4:f0:aa",
+            "connection_status": "Connected",
+            "critical_data": {
+                "glucose_level_mg_dL": 128
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "James",
+            "last_name": "Parker",
+            "device_id": "Device_9749",
+            "device_type": "Heart Rate Monitor",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "120.234.30.234",
+            "mac_address": "26:52:b2:f0:7f:71",
+            "connection_status": "Connected",
+            "critical_data": {
+                "heart_rate": 169
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Sabrina",
+            "last_name": "Hernandez",
+            "device_id": "Device_2829",
+            "device_type": "Glucose Meter",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "222.21.45.32",
+            "mac_address": "8f:0c:a1:65:60:38",
+            "connection_status": "Disconnected",
+            "critical_data": {}
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Sherry",
+            "last_name": "Watson",
+            "device_id": "Device_3483",
             "device_type": "Smart Bed",
             "manufacturer": "MedTech Inc.",
-            "ip_address": "227.45.66.31",
-            "mac_address": "97:7c:f5:ef:e4:23",
+            "ip_address": "64.236.69.2",
+            "mac_address": "65:7b:3e:15:83:a9",
             "connection_status": "Connected",
             "critical_data": {
-                "patient_weight_kg": 169,
-                "bed_angle_deg": 27.7
+                "patient_weight_kg": 124,
+                "bed_angle_deg": 42.8
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.973896",
-            "last_updated": "2024-12-04T23:00:13.973896",
-            "first_name": "Timothy",
-            "last_name": "Rodriguez",
-            "device_id": "Device_4324",
-            "device_type": "Heart Rate Monitor",
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Michael",
+            "last_name": "Sanchez",
+            "device_id": "Device_8014",
+            "device_type": "Wearable Fitness Tracker",
             "manufacturer": "LifeFit Devices",
-            "ip_address": "172.21.10.167",
-            "mac_address": "fe:6e:e5:31:ae:f1",
+            "ip_address": "239.244.89.141",
+            "mac_address": "ef:72:90:57:5c:79",
             "connection_status": "Connected",
             "critical_data": {
-                "heart_rate": 143
+                "steps_count": 3749,
+                "calories_burned_kcal": 816.96
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Laura",
-            "last_name": "Church",
-            "device_id": "Device_2412",
-            "device_type": "Smart Bed",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "7.99.170.245",
-            "mac_address": "0d:7f:6d:bb:d4:81",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 48,
-                "bed_angle_deg": 33.4
-            }
+            "timestamp": "2024-12-05T12:10:34.297383",
+            "last_updated": "2024-12-05T12:10:34.297383",
+            "first_name": "Adam",
+            "last_name": "West",
+            "device_id": "Device_8267",
+            "device_type": "ECG Monitor",
+            "manufacturer": "MedTech Inc.",
+            "ip_address": "61.73.59.40",
+            "mac_address": "02:98:38:52:80:d6",
+            "connection_status": "Disconnected",
+            "critical_data": {}
         },
         {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Jose",
-            "last_name": "Cruz",
-            "device_id": "Device_5984",
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Stacy",
+            "last_name": "Lewis",
+            "device_id": "Device_7070",
             "device_type": "Infusion Pump",
             "manufacturer": "HealthPro Systems",
-            "ip_address": "190.47.255.53",
-            "mac_address": "ec:1a:23:f9:d4:b3",
+            "ip_address": "211.82.242.210",
+            "mac_address": "47:8d:8f:e7:be:5f",
             "connection_status": "Connected",
             "critical_data": {
-                "infusion_rate_mL_h": 182.14
+                "infusion_rate_mL_h": 325.33
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "James",
-            "last_name": "Cook",
-            "device_id": "Device_2035",
-            "device_type": "Ventilator",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "162.214.166.121",
-            "mac_address": "05:b4:54:7f:d6:14",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 93.46,
-                "respiratory_rate_bpm": 12
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Nicolas",
-            "last_name": "Spencer",
-            "device_id": "Device_8234",
-            "device_type": "ECG Monitor",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "19.239.247.198",
-            "mac_address": "90:52:ce:79:60:ed",
-            "connection_status": "Connected",
-            "critical_data": {
-                "ecg_readings": [
-                    -0.81,
-                    -0.07,
-                    -0.98,
-                    0.05,
-                    -0.59,
-                    -0.43,
-                    -0.17,
-                    -0.86,
-                    0.33,
-                    -0.85
-                ]
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Jonathan",
-            "last_name": "Reynolds",
-            "device_id": "Device_4772",
-            "device_type": "Ventilator",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "76.234.179.155",
-            "mac_address": "69:b2:aa:9e:d0:18",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 97.06,
-                "respiratory_rate_bpm": 22
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Anthony",
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Brenda",
             "last_name": "Taylor",
-            "device_id": "Device_2292",
-            "device_type": "Ventilator",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "39.110.1.41",
-            "mac_address": "62:38:b7:f8:67:a8",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 86.7,
-                "respiratory_rate_bpm": 25
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Shelby",
-            "last_name": "Johnson",
-            "device_id": "Device_1898",
-            "device_type": "Wearable Fitness Tracker",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "250.249.200.37",
-            "mac_address": "75:17:fd:c3:5d:31",
-            "connection_status": "Connected",
-            "critical_data": {
-                "steps_count": 10286,
-                "calories_burned_kcal": 3791.64
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Christopher",
-            "last_name": "Blackwell",
-            "device_id": "Device_2852",
-            "device_type": "Ventilator",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "59.152.181.131",
-            "mac_address": "03:66:eb:db:84:fe",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 94.13,
-                "respiratory_rate_bpm": 12
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Marissa",
-            "last_name": "Hall",
-            "device_id": "Device_9068",
-            "device_type": "Ventilator",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "211.104.127.83",
-            "mac_address": "4b:50:43:a2:8e:d8",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 99.8,
-                "respiratory_rate_bpm": 11
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.974895",
-            "last_updated": "2024-12-04T23:00:13.974895",
-            "first_name": "Mark",
-            "last_name": "Mitchell",
-            "device_id": "Device_5382",
-            "device_type": "Smart Bed",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "135.231.183.173",
-            "mac_address": "32:22:fd:2d:3d:cb",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 180,
-                "bed_angle_deg": 14.7
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Lauren",
-            "last_name": "Erickson",
-            "device_id": "Device_1090",
-            "device_type": "ECG Monitor",
+            "device_id": "Device_1619",
+            "device_type": "Heart Rate Monitor",
             "manufacturer": "BioMonitor Co.",
-            "ip_address": "55.61.171.142",
-            "mac_address": "71:c6:79:64:37:ee",
+            "ip_address": "70.56.245.116",
+            "mac_address": "21:4a:e7:bb:9c:3f",
+            "connection_status": "Connected",
+            "critical_data": {
+                "heart_rate": 130
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Paul",
+            "last_name": "Kaufman",
+            "device_id": "Device_1477",
+            "device_type": "Infusion Pump",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "57.250.210.5",
+            "mac_address": "6a:00:32:7f:93:08",
+            "connection_status": "Connected",
+            "critical_data": {
+                "infusion_rate_mL_h": 184.69
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Christina",
+            "last_name": "Castro",
+            "device_id": "Device_1220",
+            "device_type": "Smart Bed",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "14.195.53.153",
+            "mac_address": "0b:2c:b7:0e:16:73",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 197,
+                "bed_angle_deg": 10.7
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Reginald",
+            "last_name": "Ballard",
+            "device_id": "Device_1906",
+            "device_type": "Glucose Meter",
+            "manufacturer": "BioMonitor Co.",
+            "ip_address": "24.99.190.7",
+            "mac_address": "f0:b1:da:bd:08:09",
+            "connection_status": "Connected",
+            "critical_data": {
+                "glucose_level_mg_dL": 87
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "William",
+            "last_name": "Jimenez",
+            "device_id": "Device_1449",
+            "device_type": "Glucose Meter",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "208.241.65.189",
+            "mac_address": "be:48:4f:c5:42:ff",
+            "connection_status": "Connected",
+            "critical_data": {
+                "glucose_level_mg_dL": 170
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Cheryl",
+            "last_name": "Franco",
+            "device_id": "Device_5597",
+            "device_type": "Infusion Pump",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "233.174.40.22",
+            "mac_address": "eb:ed:5f:24:85:44",
+            "connection_status": "Connected",
+            "critical_data": {
+                "infusion_rate_mL_h": 76.19
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Wendy",
+            "last_name": "Baker",
+            "device_id": "Device_2026",
+            "device_type": "Wearable Fitness Tracker",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "114.245.8.206",
+            "mac_address": "6f:e4:63:18:80:77",
+            "connection_status": "Connected",
+            "critical_data": {
+                "steps_count": 14888,
+                "calories_burned_kcal": 4823.02
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Lindsey",
+            "last_name": "Choi",
+            "device_id": "Device_6577",
+            "device_type": "Ventilator",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "156.82.123.91",
+            "mac_address": "26:9d:08:32:3f:c2",
+            "connection_status": "Connected",
+            "critical_data": {
+                "oxygen_saturation_percent": 91.6,
+                "respiratory_rate_bpm": 10
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Charles",
+            "last_name": "Rodriguez",
+            "device_id": "Device_4718",
+            "device_type": "Wearable Fitness Tracker",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "20.147.24.39",
+            "mac_address": "d5:9e:b3:59:7a:9c",
+            "connection_status": "Connected",
+            "critical_data": {
+                "steps_count": 7167,
+                "calories_burned_kcal": 1266.31
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.298382",
+            "last_updated": "2024-12-05T12:10:34.298382",
+            "first_name": "Phillip",
+            "last_name": "Barrett",
+            "device_id": "Device_2046",
+            "device_type": "ECG Monitor",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "164.56.190.114",
+            "mac_address": "c2:45:d0:02:cd:3e",
             "connection_status": "Connected",
             "critical_data": {
                 "ecg_readings": [
-                    0.42,
-                    0.84,
-                    -0.91,
-                    0.06,
-                    -0.86,
-                    -0.36,
-                    0.19,
-                    0.27,
-                    -0.16,
+                    0.61,
+                    0.78,
+                    0.41,
+                    0.76,
+                    -0.81,
+                    -0.45,
+                    -0.9,
+                    -0.72,
+                    -0.43,
                     0.74
                 ]
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Carolyn",
-            "last_name": "Adams",
-            "device_id": "Device_5629",
-            "device_type": "Infusion Pump",
-            "manufacturer": "HealthPro Systems",
-            "ip_address": "12.53.62.70",
-            "mac_address": "30:17:59:75:8b:d9",
-            "connection_status": "Connected",
-            "critical_data": {
-                "infusion_rate_mL_h": 415.27
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Amy",
-            "last_name": "Moreno",
-            "device_id": "Device_3381",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "193.85.233.13",
-            "mac_address": "94:00:51:ac:1d:e1",
-            "connection_status": "Connected",
-            "critical_data": {
-                "heart_rate": 55
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Megan",
-            "last_name": "Flores",
-            "device_id": "Device_1598",
-            "device_type": "Wearable Fitness Tracker",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "154.124.255.49",
-            "mac_address": "75:c7:be:6d:de:6b",
-            "connection_status": "Connected",
-            "critical_data": {
-                "steps_count": 17671,
-                "calories_burned_kcal": 4781.03
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Madison",
-            "last_name": "Mcguire",
-            "device_id": "Device_9367",
-            "device_type": "Ventilator",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "74.62.7.217",
-            "mac_address": "d4:1e:bd:d6:ba:06",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 99.01,
-                "respiratory_rate_bpm": 24
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Elizabeth",
-            "last_name": "Ford",
-            "device_id": "Device_5950",
-            "device_type": "Smart Bed",
-            "manufacturer": "HealthPro Systems",
-            "ip_address": "101.15.76.146",
-            "mac_address": "06:04:a2:f0:ea:75",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 139,
-                "bed_angle_deg": 22.3
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Eric",
-            "last_name": "Thompson",
-            "device_id": "Device_6475",
-            "device_type": "Ventilator",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "58.248.68.68",
-            "mac_address": "51:7e:e9:1d:e6:95",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 80.63,
-                "respiratory_rate_bpm": 16
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Julie",
-            "last_name": "Velasquez",
-            "device_id": "Device_8474",
-            "device_type": "Infusion Pump",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "41.18.190.65",
-            "mac_address": "88:cc:32:11:12:2f",
-            "connection_status": "Connected",
-            "critical_data": {
-                "infusion_rate_mL_h": 90.65
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Pam",
-            "last_name": "Gallagher",
-            "device_id": "Device_5121",
-            "device_type": "Blood Pressure Monitor",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "205.119.154.25",
-            "mac_address": "02:1e:bb:72:5b:87",
-            "connection_status": "Connected",
-            "critical_data": {
-                "blood_pressure": "135/111"
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.975896",
-            "last_updated": "2024-12-04T23:00:13.975896",
-            "first_name": "Aaron",
-            "last_name": "Taylor",
-            "device_id": "Device_7912",
-            "device_type": "Ventilator",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "47.2.71.242",
-            "mac_address": "49:2e:7c:dc:21:6e",
-            "connection_status": "Connected",
-            "critical_data": {
-                "oxygen_saturation_percent": 85.2,
-                "respiratory_rate_bpm": 27
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Edward",
-            "last_name": "Evans",
-            "device_id": "Device_8881",
-            "device_type": "ECG Monitor",
-            "manufacturer": "LifeFit Devices",
-            "ip_address": "20.123.205.252",
-            "mac_address": "f6:47:43:ac:5d:57",
-            "connection_status": "Connected",
-            "critical_data": {
-                "ecg_readings": [
-                    0.31,
-                    0.05,
-                    0.36,
-                    0.59,
-                    0.04,
-                    -0.2,
-                    -0.94,
-                    0.18,
-                    -0.9,
-                    -0.05
-                ]
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Ryan",
-            "last_name": "Johnson",
-            "device_id": "Device_2953",
-            "device_type": "Infusion Pump",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "97.254.10.212",
-            "mac_address": "72:b4:3e:07:47:8c",
-            "connection_status": "Connected",
-            "critical_data": {
-                "infusion_rate_mL_h": 200.69
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
             "first_name": "Cameron",
-            "last_name": "Ingram",
-            "device_id": "Device_2368",
-            "device_type": "ECG Monitor",
+            "last_name": "Bryant",
+            "device_id": "Device_2614",
+            "device_type": "Smart Bed",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "156.219.83.45",
+            "mac_address": "28:5c:5e:e4:77:91",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 176,
+                "bed_angle_deg": 1.7
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Jonathan",
+            "last_name": "Cameron",
+            "device_id": "Device_8104",
+            "device_type": "Heart Rate Monitor",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "106.187.196.242",
+            "mac_address": "a2:1c:e3:b1:20:d1",
+            "connection_status": "Connected",
+            "critical_data": {
+                "heart_rate": 174
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Mitchell",
+            "last_name": "Simmons",
+            "device_id": "Device_9965",
+            "device_type": "Wearable Fitness Tracker",
+            "manufacturer": "CareTrack Solutions",
+            "ip_address": "226.1.171.209",
+            "mac_address": "be:bf:4b:72:84:01",
+            "connection_status": "Connected",
+            "critical_data": {
+                "steps_count": 80,
+                "calories_burned_kcal": 2328.78
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "David",
+            "last_name": "Graham",
+            "device_id": "Device_4497",
+            "device_type": "Heart Rate Monitor",
             "manufacturer": "BioMonitor Co.",
-            "ip_address": "75.59.69.23",
-            "mac_address": "4b:20:94:6e:d6:9a",
+            "ip_address": "171.103.226.92",
+            "mac_address": "b0:fe:94:bc:6e:4c",
+            "connection_status": "Connected",
+            "critical_data": {
+                "heart_rate": 80
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Kelly",
+            "last_name": "Yoder",
+            "device_id": "Device_6137",
+            "device_type": "Ventilator",
+            "manufacturer": "MedTech Inc.",
+            "ip_address": "59.160.30.236",
+            "mac_address": "bb:5e:88:3d:ff:c4",
             "connection_status": "Disconnected",
             "critical_data": {}
         },
         {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Robert",
-            "last_name": "Kelly",
-            "device_id": "Device_4481",
-            "device_type": "Glucose Meter",
-            "manufacturer": "BioMonitor Co.",
-            "ip_address": "114.113.244.108",
-            "mac_address": "13:1d:81:1c:7d:13",
-            "connection_status": "Disconnected",
-            "critical_data": {}
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Megan",
-            "last_name": "Curtis",
-            "device_id": "Device_6769",
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Terri",
+            "last_name": "Hall",
+            "device_id": "Device_6403",
             "device_type": "Wearable Fitness Tracker",
             "manufacturer": "LifeFit Devices",
-            "ip_address": "201.106.7.24",
-            "mac_address": "91:98:8f:6c:c7:a2",
+            "ip_address": "95.42.230.154",
+            "mac_address": "07:f9:36:08:60:47",
             "connection_status": "Connected",
             "critical_data": {
-                "steps_count": 11377,
-                "calories_burned_kcal": 175.99
+                "steps_count": 7714,
+                "calories_burned_kcal": 4452.33
             }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Amanda",
-            "last_name": "Flowers",
-            "device_id": "Device_3052",
-            "device_type": "Smart Bed",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "219.65.49.87",
-            "mac_address": "f8:2b:73:40:3e:55",
-            "connection_status": "Connected",
-            "critical_data": {
-                "patient_weight_kg": 183,
-                "bed_angle_deg": 38.7
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Crystal",
-            "last_name": "Collins",
-            "device_id": "Device_6489",
-            "device_type": "ECG Monitor",
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Dale",
+            "last_name": "Walsh",
+            "device_id": "Device_2669",
+            "device_type": "Wearable Fitness Tracker",
             "manufacturer": "CareTrack Solutions",
-            "ip_address": "222.27.162.193",
-            "mac_address": "29:7a:61:d9:24:63",
-            "connection_status": "Disconnected",
-            "critical_data": {}
+            "ip_address": "208.90.40.171",
+            "mac_address": "4a:41:fe:75:29:96",
+            "connection_status": "Connected",
+            "critical_data": {
+                "steps_count": 4452,
+                "calories_burned_kcal": 560.01
+            }
         },
         {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Paul",
-            "last_name": "Howard",
-            "device_id": "Device_7054",
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Jessica",
+            "last_name": "Stewart",
+            "device_id": "Device_1185",
+            "device_type": "Smart Bed",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "62.36.165.152",
+            "mac_address": "39:1e:33:22:d7:49",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 132,
+                "bed_angle_deg": 23.4
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.299382",
+            "last_updated": "2024-12-05T12:10:34.299382",
+            "first_name": "Curtis",
+            "last_name": "Hebert",
+            "device_id": "Device_6510",
+            "device_type": "Smart Bed",
+            "manufacturer": "HealthPro Systems",
+            "ip_address": "199.249.167.63",
+            "mac_address": "b3:bc:df:bf:87:54",
+            "connection_status": "Connected",
+            "critical_data": {
+                "patient_weight_kg": 177,
+                "bed_angle_deg": 14.5
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.300385",
+            "last_updated": "2024-12-05T12:10:34.300385",
+            "first_name": "Lisa",
+            "last_name": "Vaughn",
+            "device_id": "Device_7551",
+            "device_type": "Infusion Pump",
+            "manufacturer": "LifeFit Devices",
+            "ip_address": "243.100.114.167",
+            "mac_address": "db:ab:72:0d:ce:54",
+            "connection_status": "Connected",
+            "critical_data": {
+                "infusion_rate_mL_h": 497.54
+            }
+        },
+        {
+            "timestamp": "2024-12-05T12:10:34.300385",
+            "last_updated": "2024-12-05T12:10:34.300385",
+            "first_name": "Kristi",
+            "last_name": "Martinez",
+            "device_id": "Device_4226",
             "device_type": "ECG Monitor",
             "manufacturer": "MedTech Inc.",
-            "ip_address": "74.147.57.167",
-            "mac_address": "4a:00:d0:78:52:ff",
+            "ip_address": "151.177.63.149",
+            "mac_address": "70:7d:f7:8f:98:fb",
             "connection_status": "Connected",
             "critical_data": {
                 "ecg_readings": [
-                    -0.09,
-                    -0.55,
-                    -0.28,
-                    0.35,
-                    0.47,
-                    0.3,
-                    0.09,
-                    0.33,
-                    0.02,
-                    -0.94
+                    0.58,
+                    -0.52,
+                    0.74,
+                    0.95,
+                    0.65,
+                    -0.75,
+                    -0.77,
+                    0.6,
+                    0.23,
+                    -0.34
                 ]
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Douglas",
-            "last_name": "Martinez",
-            "device_id": "Device_1172",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "CareTrack Solutions",
-            "ip_address": "141.130.94.249",
-            "mac_address": "c9:48:5d:0c:51:1b",
-            "connection_status": "Connected",
-            "critical_data": {
-                "heart_rate": 168
-            }
-        },
-        {
-            "timestamp": "2024-12-04T23:00:13.976896",
-            "last_updated": "2024-12-04T23:00:13.976896",
-            "first_name": "Joy",
-            "last_name": "Le",
-            "device_id": "Device_9879",
-            "device_type": "Heart Rate Monitor",
-            "manufacturer": "MedTech Inc.",
-            "ip_address": "77.45.158.13",
-            "mac_address": "63:bf:46:fd:bf:ee",
-            "connection_status": "Connected",
-            "critical_data": {
-                "heart_rate": 119
             }
         }
     ]
