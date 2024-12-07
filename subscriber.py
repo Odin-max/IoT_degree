@@ -58,23 +58,17 @@ Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
 
-# Обробник повідомлень MQTT
+
 def on_message(client, userdata, message):
-    """
-    Обробляє отримане повідомлення від MQTT та зберігає в базу даних.
-    """
     session = Session()
     try:
-        # Отримуємо та десеріалізуємо дані
         payload = json.loads(message.payload.decode("utf-8"))
         print(f"Отримано дані: {payload}")
 
-        # Шифруємо поля перед збереженням
         encrypted_first_name = encrypt_data(payload["first_name"])
         encrypted_last_name = encrypt_data(payload["last_name"])
         encrypted_critical_data = encrypt_data(payload["critical_data"])
 
-        # Створюємо запис для бази
         db_entry = IoTData(
             timestamp=payload["timestamp"],
             last_updated=payload["last_updated"],

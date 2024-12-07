@@ -25,8 +25,9 @@ pytz = "^2024.2"
 faker = "^33.1.0"
 cryptography = "^44.0.0"
 python-dotenv = "^1.0.1"
-paho-mqtt = "^2.1.0"
 pydantic = "^2.10.3"
+paho-mqtt = "^2.1.0"
+psutil = "^6.1.0"
 
 
 [build-system]
